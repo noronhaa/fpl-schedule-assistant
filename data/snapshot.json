@@ -1,0 +1,7201 @@
+{
+  "season": "2026/27",
+  "generatedAt": "2026-08-21T02:50:54.260Z",
+  "source": "snapshot",
+  "currentGw": 0,
+  "nextGw": 1,
+  "teams": [
+    {
+      "id": 1,
+      "name": "Arsenal",
+      "short": "ARS",
+      "code": 3
+    },
+    {
+      "id": 2,
+      "name": "Aston Villa",
+      "short": "AVL",
+      "code": 7
+    },
+    {
+      "id": 3,
+      "name": "Bournemouth",
+      "short": "BOU",
+      "code": 91
+    },
+    {
+      "id": 4,
+      "name": "Brentford",
+      "short": "BRE",
+      "code": 94
+    },
+    {
+      "id": 5,
+      "name": "Brighton",
+      "short": "BHA",
+      "code": 36
+    },
+    {
+      "id": 6,
+      "name": "Chelsea",
+      "short": "CHE",
+      "code": 8
+    },
+    {
+      "id": 7,
+      "name": "Coventry City",
+      "short": "COV",
+      "code": 9
+    },
+    {
+      "id": 8,
+      "name": "Crystal Palace",
+      "short": "CRY",
+      "code": 31
+    },
+    {
+      "id": 9,
+      "name": "Everton",
+      "short": "EVE",
+      "code": 11
+    },
+    {
+      "id": 10,
+      "name": "Fulham",
+      "short": "FUL",
+      "code": 54
+    },
+    {
+      "id": 11,
+      "name": "Hull City",
+      "short": "HUL",
+      "code": 88
+    },
+    {
+      "id": 12,
+      "name": "Ipswich Town",
+      "short": "IPS",
+      "code": 40
+    },
+    {
+      "id": 13,
+      "name": "Leeds",
+      "short": "LEE",
+      "code": 2
+    },
+    {
+      "id": 14,
+      "name": "Liverpool",
+      "short": "LIV",
+      "code": 14
+    },
+    {
+      "id": 15,
+      "name": "Man City",
+      "short": "MCI",
+      "code": 43
+    },
+    {
+      "id": 16,
+      "name": "Man Utd",
+      "short": "MUN",
+      "code": 1
+    },
+    {
+      "id": 17,
+      "name": "Newcastle",
+      "short": "NEW",
+      "code": 4
+    },
+    {
+      "id": 18,
+      "name": "Nott'm Forest",
+      "short": "NFO",
+      "code": 17
+    },
+    {
+      "id": 19,
+      "name": "Spurs",
+      "short": "TOT",
+      "code": 6
+    },
+    {
+      "id": 20,
+      "name": "Sunderland",
+      "short": "SUN",
+      "code": 56
+    }
+  ],
+  "gameweeks": [
+    {
+      "id": 1,
+      "name": "Gameweek 1",
+      "deadline": "2026-08-21T17:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 2,
+      "name": "Gameweek 2",
+      "deadline": "2026-08-28T17:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 3,
+      "name": "Gameweek 3",
+      "deadline": "2026-09-04T17:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 4,
+      "name": "Gameweek 4",
+      "deadline": "2026-09-12T12:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 5,
+      "name": "Gameweek 5",
+      "deadline": "2026-09-18T17:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 6,
+      "name": "Gameweek 6",
+      "deadline": "2026-10-10T10:00:00Z",
+      "finished": false
+    },
+    {
+      "id": 7,
+      "name": "Gameweek 7",
+      "deadline": "2026-10-17T10:00:00Z",
+      "finished": false
+    },
+    {
+      "id": 8,
+      "name": "Gameweek 8",
+      "deadline": "2026-10-23T17:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 9,
+      "name": "Gameweek 9",
+      "deadline": "2026-10-31T11:00:00Z",
+      "finished": false
+    },
+    {
+      "id": 10,
+      "name": "Gameweek 10",
+      "deadline": "2026-11-07T13:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 11,
+      "name": "Gameweek 11",
+      "deadline": "2026-11-21T13:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 12,
+      "name": "Gameweek 12",
+      "deadline": "2026-11-28T13:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 13,
+      "name": "Gameweek 13",
+      "deadline": "2026-12-02T18:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 14,
+      "name": "Gameweek 14",
+      "deadline": "2026-12-05T13:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 15,
+      "name": "Gameweek 15",
+      "deadline": "2026-12-12T13:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 16,
+      "name": "Gameweek 16",
+      "deadline": "2026-12-19T13:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 17,
+      "name": "Gameweek 17",
+      "deadline": "2026-12-26T13:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 18,
+      "name": "Gameweek 18",
+      "deadline": "2026-12-30T18:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 19,
+      "name": "Gameweek 19",
+      "deadline": "2027-01-02T13:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 20,
+      "name": "Gameweek 20",
+      "deadline": "2027-01-06T18:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 21,
+      "name": "Gameweek 21",
+      "deadline": "2027-01-16T13:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 22,
+      "name": "Gameweek 22",
+      "deadline": "2027-01-23T13:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 23,
+      "name": "Gameweek 23",
+      "deadline": "2027-01-30T13:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 24,
+      "name": "Gameweek 24",
+      "deadline": "2027-02-06T13:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 25,
+      "name": "Gameweek 25",
+      "deadline": "2027-02-10T18:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 26,
+      "name": "Gameweek 26",
+      "deadline": "2027-02-20T13:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 27,
+      "name": "Gameweek 27",
+      "deadline": "2027-02-27T13:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 28,
+      "name": "Gameweek 28",
+      "deadline": "2027-03-03T18:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 29,
+      "name": "Gameweek 29",
+      "deadline": "2027-03-13T13:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 30,
+      "name": "Gameweek 30",
+      "deadline": "2027-03-20T13:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 31,
+      "name": "Gameweek 31",
+      "deadline": "2027-04-10T12:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 32,
+      "name": "Gameweek 32",
+      "deadline": "2027-04-17T12:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 33,
+      "name": "Gameweek 33",
+      "deadline": "2027-04-24T12:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 34,
+      "name": "Gameweek 34",
+      "deadline": "2027-05-01T12:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 35,
+      "name": "Gameweek 35",
+      "deadline": "2027-05-08T12:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 36,
+      "name": "Gameweek 36",
+      "deadline": "2027-05-15T12:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 37,
+      "name": "Gameweek 37",
+      "deadline": "2027-05-23T12:30:00Z",
+      "finished": false
+    },
+    {
+      "id": 38,
+      "name": "Gameweek 38",
+      "deadline": "2027-05-30T13:30:00Z",
+      "finished": false
+    }
+  ],
+  "matches": [
+    {
+      "gw": 1,
+      "teamId": 1,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-08-21T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 7,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2026-08-21T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 11,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-08-22T11:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 16,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-08-22T11:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 9,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-08-22T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 8,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-08-22T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 12,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-08-22T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 20,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-08-22T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 18,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-08-22T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 13,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-08-22T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 4,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-08-22T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 19,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-08-22T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 5,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-08-23T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 2,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-08-23T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 15,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-08-23T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 3,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2026-08-23T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 17,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-08-23T15:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 14,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-08-23T15:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 10,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-08-24T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 1,
+      "teamId": 6,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-08-24T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 8,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-08-28T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 15,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-08-28T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 14,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-08-29T11:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 18,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-08-29T11:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 3,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-08-29T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 9,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-08-29T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 7,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-08-29T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 11,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-08-29T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 19,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-08-29T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 17,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-08-29T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 6,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-08-30T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 5,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-08-30T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 13,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-08-30T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 4,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-08-30T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 20,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-08-30T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 10,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-08-30T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 16,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-08-30T15:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 12,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-08-30T15:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 2,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-08-31T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 2,
+      "teamId": 1,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-08-31T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 12,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-09-04T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 14,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-09-04T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 17,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-09-05T11:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 3,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-05T11:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 4,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-09-05T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 20,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-05T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 5,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-09-05T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 13,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-05T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 10,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-09-05T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 8,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-05T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 15,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-09-05T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 7,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2026-09-05T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 18,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-09-05T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 19,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-05T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 11,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-09-05T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 2,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-09-05T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 9,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-09-06T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 16,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-06T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 1,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-09-06T15:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 3,
+      "teamId": 6,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2026-09-06T15:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 2,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-09-12T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 18,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-09-12T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 3,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-09-12T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 4,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-12T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 6,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-09-12T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 11,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-09-12T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 8,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-09-12T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 12,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-12T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 14,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-09-12T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 10,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-09-12T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 19,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-09-12T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 9,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-12T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 20,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-09-12T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 1,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-12T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 7,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-09-13T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 5,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-09-13T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 16,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-09-13T15:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 15,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-09-13T15:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 13,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-09-14T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 4,
+      "teamId": 17,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-14T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 4,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-09-18T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 6,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-18T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 19,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-09-19T11:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 2,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-19T11:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 5,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-09-19T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 1,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-19T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 9,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-09-19T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 12,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-19T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 13,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-09-19T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 8,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-19T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 15,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-09-19T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 20,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2026-09-19T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 17,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-09-19T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 11,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-19T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 18,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-09-19T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 7,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-19T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 3,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-09-20T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 14,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-20T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 10,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-09-20T15:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 5,
+      "teamId": 16,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-09-20T15:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 1,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-10-10T11:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 13,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2026-10-10T11:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 2,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-10-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 4,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-10-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 6,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-10-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 3,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-10-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 12,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-10-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 10,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-10-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 20,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-10-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 5,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-10-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 16,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-10-10T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 19,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-10-10T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 8,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-10-11T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 18,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-10-11T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 11,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-10-11T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 9,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-10-11T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 14,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-10-11T15:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 15,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-10-11T15:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 7,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-10-12T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 6,
+      "teamId": 17,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-10-12T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 9,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-10-17T11:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 6,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-10-17T11:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 4,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-10-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 14,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-10-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 10,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-10-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 11,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-10-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 15,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-10-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 12,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2026-10-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 17,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-10-17T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 2,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-10-17T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 3,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-10-18T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 20,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-10-18T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 5,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-10-18T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 8,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-10-18T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 13,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-10-18T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 16,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-10-18T13:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 18,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-10-18T15:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 1,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-10-18T15:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 19,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-10-19T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 7,
+      "teamId": 7,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-10-19T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 12,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-10-23T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 18,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-10-23T19:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 2,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-10-24T11:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 15,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-10-24T11:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 1,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-10-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 9,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2026-10-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 7,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-10-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 10,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-10-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 14,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-10-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 5,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-10-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 6,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-10-24T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 19,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-10-24T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 8,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-10-25T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 17,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-10-25T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 11,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-10-25T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 4,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-10-25T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 16,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-10-25T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 3,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-10-25T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 20,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-10-25T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 8,
+      "teamId": 13,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-10-25T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 6,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-10-31T12:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 16,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-10-31T12:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 3,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-10-31T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 13,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-10-31T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 4,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-10-31T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 18,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-10-31T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 7,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-10-31T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 20,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-10-31T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 11,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-10-31T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 12,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-10-31T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 15,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-10-31T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 5,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2026-10-31T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 19,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-10-31T17:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 8,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-10-31T17:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 2,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-11-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 10,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-11-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 14,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-11-01T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 1,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-11-01T16:30:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 17,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-11-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 9,
+      "teamId": 9,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 1,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 11,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 5,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 4,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 8,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 14,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 9,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 7,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 10,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 17,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 12,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 3,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 13,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 19,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 16,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 2,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 18,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 15,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 20,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 10,
+      "teamId": 6,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-07T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 2,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 20,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 3,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 18,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 4,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 9,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 6,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 13,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 7,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 8,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 11,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 5,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 14,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 16,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 15,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 10,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 17,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 1,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 19,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 11,
+      "teamId": 12,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-21T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 1,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 15,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 5,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 17,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 8,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 11,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 9,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 14,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 10,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 3,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 12,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 2,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 13,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 7,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 16,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 4,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 18,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 6,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 20,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 12,
+      "teamId": 19,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-11-28T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 2,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 9,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 3,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 5,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 4,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 1,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 6,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 8,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 7,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 12,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 11,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 18,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 14,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 20,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 15,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 13,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 17,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 16,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 19,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 13,
+      "teamId": 10,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-02T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 2,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 8,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 3,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 11,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 4,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 15,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 6,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 14,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 9,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 10,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 13,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 12,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 16,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 7,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 17,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 20,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 18,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 5,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 19,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 14,
+      "teamId": 1,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-05T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 1,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 3,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 5,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 9,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 7,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 2,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 8,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 16,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 10,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 4,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 11,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 19,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 12,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 17,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 14,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 13,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 15,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 6,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 20,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 15,
+      "teamId": 18,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-12T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 1,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 16,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 3,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 7,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 4,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 17,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 5,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 12,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 6,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 2,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 13,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 10,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 14,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 19,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 15,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 11,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 18,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 9,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 20,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 16,
+      "teamId": 8,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-19T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 2,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 13,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 7,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 6,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 8,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 1,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 9,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 20,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 10,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 5,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 11,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 14,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 12,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 4,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 16,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 18,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 17,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 15,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 19,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 17,
+      "teamId": 3,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-26T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 2,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 14,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 7,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 4,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 8,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 3,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 9,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 15,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 10,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 1,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 11,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 13,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 12,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 6,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 16,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 20,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 17,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 18,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 19,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 18,
+      "teamId": 5,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2026-12-30T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 1,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 12,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 3,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 2,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 4,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 8,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 5,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 16,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 6,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 17,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 13,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 9,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 14,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 7,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 15,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 19,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 18,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 10,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 20,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 19,
+      "teamId": 11,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-02T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 1,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 4,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 5,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 3,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 8,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 6,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 9,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 2,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 10,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 19,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 12,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 7,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 13,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 15,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 16,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 17,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 18,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 11,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 20,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 20,
+      "teamId": 14,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-06T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 2,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 16,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 3,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 12,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 4,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 5,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 6,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 20,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 7,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 9,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 11,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 1,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 14,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 8,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 15,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 18,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 17,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 10,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 19,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 21,
+      "teamId": 13,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-16T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 1,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 17,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 5,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 15,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 8,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 19,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 9,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 4,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 10,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 2,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 12,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 11,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 13,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 6,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 16,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 14,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 18,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 3,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 20,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 22,
+      "teamId": 7,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-23T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 2,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 12,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 3,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 10,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 4,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 16,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 6,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 18,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 7,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 13,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 11,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 8,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 14,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 9,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 15,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 1,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 17,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 5,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 19,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 23,
+      "teamId": 20,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-01-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 1,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 14,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 5,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 11,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 8,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 7,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 9,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 17,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 10,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 15,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 12,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 19,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 13,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 3,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 16,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 6,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 18,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 4,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 20,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 24,
+      "teamId": 2,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-06T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 2,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 3,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 7,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 14,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 8,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 4,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 9,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 13,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 10,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 18,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 11,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 20,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 12,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 1,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 16,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 5,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 17,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 6,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 19,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 25,
+      "teamId": 15,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-10T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 1,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 10,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 3,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 8,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 4,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 7,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 5,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 19,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 6,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 12,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 13,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 2,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 14,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 11,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 15,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 17,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 18,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 16,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 20,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 26,
+      "teamId": 9,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 2,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 6,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 7,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 3,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 8,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 20,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 9,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 18,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 10,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 13,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 11,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 15,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 12,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 5,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 16,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 1,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 17,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 4,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 19,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 27,
+      "teamId": 14,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-02-27T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 1,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 8,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 3,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 19,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 4,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 12,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 5,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 10,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 6,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 7,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 13,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 11,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 14,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 2,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 15,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 9,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 18,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 17,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 20,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 28,
+      "teamId": 16,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-03-03T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 2,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 11,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 3,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 17,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 6,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 1,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 7,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 15,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 8,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 10,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 13,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 5,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 14,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 12,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 16,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 9,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 19,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 18,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 20,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 29,
+      "teamId": 4,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-03-13T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 1,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 20,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 4,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 3,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 5,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 7,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 9,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 19,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 10,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 14,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 11,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 6,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 12,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 8,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 15,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 16,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 17,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 13,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 18,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 30,
+      "teamId": 2,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-03-20T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 2,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 5,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 3,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 15,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 6,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 10,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 7,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 1,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 8,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 9,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 13,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 18,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 14,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 17,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 16,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 11,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 19,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 4,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 20,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 31,
+      "teamId": 12,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-04-10T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 1,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 2,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 4,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 13,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 5,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 6,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 9,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 3,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 10,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 20,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 11,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 7,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 12,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 16,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 15,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 8,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 17,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 19,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 18,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 32,
+      "teamId": 14,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-04-17T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 2,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 7,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 3,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 1,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 4,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 10,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 6,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 15,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 9,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 5,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 13,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 14,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 16,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 8,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 17,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 12,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 18,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 20,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 19,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 33,
+      "teamId": 11,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-04-24T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 1,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 19,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 5,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 18,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 7,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 16,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 8,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 2,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 10,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 9,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 11,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 3,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 12,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 13,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 14,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 6,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 15,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 4,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 20,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 34,
+      "teamId": 17,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-01T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 3,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 16,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 4,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 2,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 5,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 20,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 9,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 11,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 10,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 12,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 13,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 1,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 15,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 14,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 17,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 7,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 18,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 8,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 19,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 35,
+      "teamId": 6,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-08T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 1,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 18,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 2,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 17,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 6,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 9,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 7,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 19,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 8,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 5,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 11,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 10,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 12,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 15,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 14,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 4,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 16,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 13,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 20,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 36,
+      "teamId": 3,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-15T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 3,
+      "oppId": 6,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 6,
+      "oppId": 3,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 4,
+      "oppId": 11,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 11,
+      "oppId": 4,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 5,
+      "oppId": 14,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 14,
+      "oppId": 5,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 9,
+      "oppId": 1,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 1,
+      "oppId": 9,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 10,
+      "oppId": 7,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 7,
+      "oppId": 10,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 13,
+      "oppId": 20,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 20,
+      "oppId": 13,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 15,
+      "oppId": 2,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 2,
+      "oppId": 15,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 17,
+      "oppId": 8,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 8,
+      "oppId": 17,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 18,
+      "oppId": 12,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 12,
+      "oppId": 18,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 19,
+      "oppId": 16,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 37,
+      "teamId": 16,
+      "oppId": 19,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-23T14:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 1,
+      "oppId": 5,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 5,
+      "oppId": 1,
+      "home": false,
+      "fdr": 5,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 2,
+      "oppId": 19,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 19,
+      "oppId": 2,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 6,
+      "oppId": 4,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 4,
+      "oppId": 6,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 7,
+      "oppId": 18,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 18,
+      "oppId": 7,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 8,
+      "oppId": 13,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 13,
+      "oppId": 8,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 11,
+      "oppId": 17,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 17,
+      "oppId": 11,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 12,
+      "oppId": 9,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 9,
+      "oppId": 12,
+      "home": false,
+      "fdr": 2,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 14,
+      "oppId": 3,
+      "home": true,
+      "fdr": 3,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 3,
+      "oppId": 14,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 16,
+      "oppId": 10,
+      "home": true,
+      "fdr": 2,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 10,
+      "oppId": 16,
+      "home": false,
+      "fdr": 4,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 20,
+      "oppId": 15,
+      "home": true,
+      "fdr": 4,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    },
+    {
+      "gw": 38,
+      "teamId": 15,
+      "oppId": 20,
+      "home": false,
+      "fdr": 3,
+      "kickoff": "2027-05-30T15:00:00Z",
+      "finished": false
+    }
+  ]
+}

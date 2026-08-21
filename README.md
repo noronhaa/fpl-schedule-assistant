@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FPL Schedule Assistant
 
-## Getting Started
+A local fixture-difficulty planner for Fantasy Premier League **2026/27**. Pick the teams
+you care about, choose how many gameweeks ahead to look, and read the run off a colour-coded
+ticker so you can plan subs and transfers.
 
-First, run the development server:
+## Features
+
+- **Team filter** — toggle any subset of the 20 teams (select all / clear).
+- **Weeks slider** — 1 to 12 gameweeks ahead.
+- **Start gameweek control** — defaults to the next open gameweek, steppable to any GW.
+- **Official FPL difficulty** — the same 1–5 FDR values and green→red colours the
+  official fixture ticker uses, shown as both a number and a colour.
+- **Home / away** — uppercase opponent = home, lowercase + outline = away, with an `H`/`A` label.
+- **Sort by easiest or hardest run** — teams ordered by mean FDR across the selected window.
+- **Doubles and blanks** — two chips in a cell for a double gameweek, `BLANK` for no fixture,
+  plus a match count when a team's fixture total differs from the window length.
+
+## Running it
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open <http://localhost:3000>.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Data
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Fixtures and difficulty ratings come from the public FPL API:
 
-## Learn More
+- `https://fantasy.premierleague.com/api/bootstrap-static/` — teams and gameweek deadlines
+- `https://fantasy.premierleague.com/api/fixtures/` — all 380 fixtures with per-side FDR
 
-To learn more about Next.js, take a look at the following resources:
+The page fetches live data and caches the render for an hour; the **Refresh** button hits
+`/api/schedule` for uncached data on demand. If the API is unreachable, the app falls back to
+the committed snapshot in `data/snapshot.json` and shows an amber banner saying so.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Refresh that snapshot with:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run refresh
+```
 
-## Deploy on Vercel
+## Layout
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Path | Purpose |
+| --- | --- |
+| `lib/fpl.ts` | FPL API types, fetching, and normalisation into a flat `Match[]` |
+| `lib/schedule.ts` | Live-with-snapshot-fallback loader |
+| `lib/difficulty.ts` | FDR colour scale, gradient blending, crest URLs |
+| `components/planner.tsx` | All client UI — controls, team picker, ticker |
+| `app/api/schedule/route.ts` | Uncached JSON endpoint for the Refresh button |
+| `scripts/refresh-snapshot.ts` | Regenerates `data/snapshot.json` |

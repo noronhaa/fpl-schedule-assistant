@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "refresh": "node scripts/refresh-snapshot.ts",
+    "refresh:history": "node scripts/refresh-history.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

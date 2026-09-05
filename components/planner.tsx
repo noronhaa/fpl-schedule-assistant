@@ -3,12 +3,34 @@
 import { useCallback, useMemo, useState, useTransition } from "react";
 import type { Match, Team } from "@/lib/fpl";
 import type { LoadedSchedule } from "@/lib/schedule";
-import { FDR_COLORS, crestUrl, fdrGradient, fdrStyle } from "@/lib/difficulty";
+import { FDR_COLORS, crestUrl, fdrGradient } from "@/lib/difficulty";
+import Compare from "./compare";
+import FixtureChip from "./fixture-chip";
 
 const MAX_WEEKS = 12;
 const LAST_GW = 38;
 
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+/**
+ * Formats a gameweek deadline as "12 Sep", identically on server and client.
+ *
+ * Deliberately not toLocaleDateString. With no explicit locale it resolves to
+ * whatever each runtime defaults to, so Node rendered "Sep 12" while a browser
+ * set to en-GB rendered "12 Sept" — a hydration mismatch that made React throw
+ * away the whole ticker and re-render it. Pinning a locale is not enough on its
+ * own either: the "Sep" / "Sept" abbreviation depends on the ICU data a given
+ * runtime ships, and the local timezone can still put the two on different
+ * days. Fixed month names plus UTC parts are the same everywhere.
+ */
+function formatDeadline(iso: string): string {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return "—";
+  return `${d.getUTCDate()} ${MONTHS[d.getUTCMonth()]}`;
+}
+
 type SortMode = "easiest" | "hardest" | "name";
+type View = "ticker" | "compare";
 
 interface TeamRow {
   team: Team;
@@ -26,6 +48,7 @@ export default function Planner({ initial }: { initial: LoadedSchedule }) {
   const [startGw, setStartGw] = useState(() => Math.min(initial.nextGw || 1, LAST_GW));
   const [weeks, setWeeks] = useState(5);
   const [sort, setSort] = useState<SortMode>("easiest");
+  const [view, setView] = useState<View>("ticker");
   const [refreshing, startRefresh] = useTransition();
 
   const maxWeeks = Math.min(MAX_WEEKS, LAST_GW - startGw + 1);
@@ -123,17 +146,62 @@ export default function Planner({ initial }: { initial: LoadedSchedule }) {
         nextGw={schedule.nextGw}
       />
 
-      <TeamPicker
-        teams={schedule.teams}
-        selected={selected}
-        onToggle={toggleTeam}
-        onAll={() => setSelected(new Set(schedule.teams.map((t) => t.id)))}
-        onNone={() => setSelected(new Set())}
-      />
+      <ViewTabs view={view} setView={setView} />
 
-      <Ticker rows={rows} gws={windowGws} gwMeta={gwMeta} teamsById={teamsById} />
+      {view === "ticker" ? (
+        <>
+          <TeamPicker
+            teams={schedule.teams}
+            selected={selected}
+            onToggle={toggleTeam}
+            onAll={() => setSelected(new Set(schedule.teams.map((t) => t.id)))}
+            onNone={() => setSelected(new Set())}
+          />
 
-      <Legend />
+          <Ticker rows={rows} gws={windowGws} gwMeta={gwMeta} teamsById={teamsById} />
+
+          <Legend />
+        </>
+      ) : (
+        <Compare
+          teams={schedule.teams}
+          players={schedule.players}
+          matches={schedule.matches}
+          nextGw={schedule.nextGw}
+          currentGw={schedule.currentGw}
+          historyThroughGw={schedule.historyThroughGw}
+        />
+      )}
+    </div>
+  );
+}
+
+function ViewTabs({ view, setView }: { view: View; setView: (v: View) => void }) {
+  const tabs: { id: View; label: string }[] = [
+    { id: "ticker", label: "Fixture ticker" },
+    { id: "compare", label: "Compare players" },
+  ];
+  return (
+    <div
+      role="tablist"
+      aria-label="View"
+      className="mt-5 inline-flex rounded-lg border border-black/10 p-1 dark:border-white/10"
+    >
+      {tabs.map((tab) => (
+        <button
+          key={tab.id}
+          role="tab"
+          aria-selected={view === tab.id}
+          onClick={() => setView(tab.id)}
+          className={`rounded-md px-3 py-1.5 text-sm font-medium transition ${
+            view === tab.id
+              ? "bg-black text-white dark:bg-white dark:text-black"
+              : "text-black/60 hover:bg-black/5 dark:text-white/60 dark:hover:bg-white/10"
+          }`}
+        >
+          {tab.label}
+        </button>
+      ))}
     </div>
   );
 }
@@ -401,12 +469,7 @@ function Ticker({
                 <th key={gw} className="min-w-[76px] px-1 py-2 text-center">
                   <div className="text-xs font-semibold">GW{gw}</div>
                   <div className="text-[10px] font-normal text-black/45 dark:text-white/45">
-                    {meta
-                      ? new Date(meta.deadline).toLocaleDateString(undefined, {
-                          day: "numeric",
-                          month: "short",
-                        })
-                      : "—"}
+                    {meta ? formatDeadline(meta.deadline) : "—"}
                   </div>
                 </th>
               );
@@ -480,27 +543,6 @@ function Ticker({
           })}
         </tbody>
       </table>
-    </div>
-  );
-}
-
-function FixtureChip({ match, opponent }: { match: Match; opponent?: Team }) {
-  const style = fdrStyle(match.fdr);
-  const short = opponent?.short ?? "???";
-  return (
-    <div
-      className={`rounded-md px-1 py-1 text-center leading-none ${
-        match.home ? "" : "ring-1 ring-inset ring-black/25"
-      }`}
-      style={{ backgroundColor: style.bg, color: style.fg }}
-      title={`${opponent?.name ?? "Unknown"} (${match.home ? "home" : "away"}) — difficulty ${match.fdr}: ${style.label}`}
-    >
-      <div className="text-[11px] font-extrabold tracking-wide">
-        {match.home ? short.toUpperCase() : short.toLowerCase()}
-      </div>
-      <div className="mt-0.5 text-[9px] font-semibold opacity-75">
-        {match.home ? "H" : "A"} · {match.fdr}
-      </div>
     </div>
   );
 }

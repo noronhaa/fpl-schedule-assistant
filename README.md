@@ -71,8 +71,16 @@ is audited:
 npm run refresh:history
 ```
 
-Note that a gameweek is not final until FPL marks it `data_checked`. Between kickoff and that
-flag, bonus is provisional and the whole ICT family reads zero.
+Only **audited** gameweeks are stored. A gameweek in progress has played some fixtures and not
+others, so counting it would record a hit-rate over a partial round and understate every player
+whose team had not kicked off yet. FPL marks a gameweek `data_checked` a day or two after its
+last fixture; until then bonus is provisional and the whole ICT family reads zero.
+
+`.github/workflows/refresh-history.yml` polls for that daily and commits on the days it moves,
+so the cache does not drift. It commits only when `throughGw` advances — `data/snapshot.json`
+changes its `generatedAt` on every run, so refreshing it daily would churn a 450KB file for no
+benefit — and it refuses to commit a crawl that comes back thin, which is what a rate-limited
+run looks like. Run it by hand from the Actions tab with **force** to repair a partial crawl.
 
 ## Layout
 

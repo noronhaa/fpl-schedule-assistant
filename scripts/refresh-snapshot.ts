@@ -16,5 +16,6 @@ await writeFile(outPath, JSON.stringify({ ...schedule, source: "snapshot" }, nul
 
 console.log(
   `Wrote ${outPath}\n  season ${schedule.season} · ${schedule.teams.length} teams · ` +
-    `${schedule.matches.length / 2} fixtures · next GW ${schedule.nextGw}`,
+    `${schedule.matches.length / 2} fixtures · ${schedule.players.length} players · ` +
+    `next GW ${schedule.nextGw}`,
 );

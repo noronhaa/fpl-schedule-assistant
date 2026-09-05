@@ -10,6 +10,12 @@
  * Deriving it costs one /element-summary/ request per player, so it is crawled
  * offline by `npm run refresh:history` and committed to data/history.json,
  * never fetched on the request path.
+ *
+ * Only gameweeks FPL has audited are stored. A gameweek in progress has played
+ * some fixtures and not others, so crawling it would record a hit-rate over a
+ * partial round and silently understate every player whose team had not kicked
+ * off yet — and, because bonus and the ICT family are provisional until the
+ * audit, the numbers can still move afterwards.
  */
 
 import { DC_THRESHOLD, FPL_BASE, fplRequestInit, type Player, type PlayerHistory } from "./fpl.ts";
@@ -23,7 +29,11 @@ const PREV_SEASON_MINUTES = 450;
 export interface HistoryFile {
   generatedAt: string;
   season: string;
-  /** Highest gameweek any crawled row covers, so staleness is visible. */
+  /**
+   * Last audited gameweek included. Rows from later, unaudited gameweeks are
+   * dropped, so this is a promise about coverage rather than the highest round
+   * the API happened to return.
+   */
   throughGw: number;
   /** Keyed by player id, as a string because it round-trips through JSON. */
   players: Record<string, PlayerHistory>;
@@ -46,9 +56,18 @@ interface RawElementSummary {
   history_past: RawPastSeason[];
 }
 
-/** Reduces one player's raw element-summary into the fields the app stores. */
-export function summarise(summary: RawElementSummary, threshold: number | null): PlayerHistory {
-  const appearances = (summary.history ?? []).filter((h) => h.minutes >= DC_APPEARANCE_MINUTES);
+/**
+ * Reduces one player's raw element-summary into the fields the app stores,
+ * keeping only rows from gameweeks in `audited`.
+ */
+export function summarise(
+  summary: RawElementSummary,
+  threshold: number | null,
+  audited: ReadonlySet<number>,
+): PlayerHistory {
+  const appearances = (summary.history ?? []).filter(
+    (h) => audited.has(h.round) && h.minutes >= DC_APPEARANCE_MINUTES,
+  );
 
   const dcByGw = appearances.map((h) => ({ gw: h.round, dc: h.defensive_contribution }));
   // Keepers have no threshold; their DC always reads 0, so a hit-rate would be a
@@ -106,13 +125,15 @@ export interface CrawlOptions {
 export async function crawlHistory(
   players: Player[],
   season: string,
+  auditedGws: number[],
   options: CrawlOptions = {},
 ): Promise<HistoryFile> {
   const { concurrency = 6, minMinutes = 1, onProgress } = options;
   const targets = players.filter((p) => p.minutes >= minMinutes);
+  const audited = new Set(auditedGws);
 
   const out: Record<string, PlayerHistory> = {};
-  let throughGw = 0;
+  const throughGw = auditedGws.length > 0 ? Math.max(...auditedGws) : 0;
   let done = 0;
   let cursor = 0;
 
@@ -121,9 +142,7 @@ export async function crawlHistory(
       const player = targets[cursor++];
       try {
         const summary = await fetchSummary(player.id);
-        const entry = summarise(summary, DC_THRESHOLD[player.pos]);
-        out[String(player.id)] = entry;
-        for (const row of entry.dcByGw) throughGw = Math.max(throughGw, row.gw);
+        out[String(player.id)] = summarise(summary, DC_THRESHOLD[player.pos], audited);
       } catch {
         // Leave the player absent; the UI treats that as "no history".
       }

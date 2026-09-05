@@ -176,11 +176,14 @@ export default function Compare({
             {stale && (
               <>
                 {" "}
-                Defensive Contribution history covers gameweeks up to GW{historyThroughGw} — run{" "}
+                Defensive Contribution history covers <strong>audited</strong> gameweeks up to GW
+                {historyThroughGw}. GW{currentGw} is excluded until FPL finishes auditing it —
+                a gameweek in progress has played some fixtures and not others, so counting it
+                would understate every player whose team has not kicked off. Re-run{" "}
                 <code className="rounded bg-black/5 px-1 dark:bg-white/10">
                   npm run refresh:history
                 </code>{" "}
-                to include GW{currentGw}.
+                once it is.
               </>
             )}
           </p>

@@ -15,8 +15,13 @@ const outPath = join(dirname(fileURLToPath(import.meta.url)), "..", "data", "his
 
 const schedule = await fetchLiveSchedule(0);
 
+// Only audited gameweeks are stored. A gameweek in progress has played some
+// fixtures and not others, so including it would record a hit-rate over a
+// partial round for every player whose team had not kicked off yet.
+const auditedGws = schedule.gameweeks.filter((g) => g.dataChecked).map((g) => g.id);
+
 let lastLogged = 0;
-const history = await crawlHistory(schedule.players, schedule.season, {
+const history = await crawlHistory(schedule.players, schedule.season, auditedGws, {
   onProgress: (done, total) => {
     // One line per 10% so a several-hundred-request crawl shows progress
     // without flooding the terminal.
@@ -32,7 +37,9 @@ await writeFile(outPath, JSON.stringify(history, null, 2) + "\n");
 
 const rows = Object.values(history.players);
 const withHits = rows.filter((r) => r.dcHits > 0).length;
+const pending = schedule.currentGw > history.throughGw ? schedule.currentGw : null;
 console.log(
-  `Wrote ${outPath}\n  season ${history.season} · through GW ${history.throughGw} · ` +
-    `${rows.length} players crawled · ${withHits} with at least one DC hit`,
+  `Wrote ${outPath}\n  season ${history.season} · audited through GW ${history.throughGw} · ` +
+    `${rows.length} players crawled · ${withHits} with at least one DC hit` +
+    (pending ? `\n  GW${pending} is not audited yet and was excluded; re-run once it is.` : ""),
 );

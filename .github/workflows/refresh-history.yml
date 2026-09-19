@@ -1,0 +1,91 @@
+name: Refresh FPL history
+
+# The DC hit-rate is derived from one /element-summary/ request per player, so
+# it lives in data/history.json rather than being fetched per request. It only
+# gains data when FPL audits a gameweek, which lands a day or two after the last
+# fixture — so poll daily and commit on the days that actually move.
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Commit even if no new gameweek was audited (use to repair a partial crawl)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# Never let two crawls race for the same push.
+concurrency:
+  group: refresh-history
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          # 24 runs the .ts scripts directly via native type stripping.
+          node-version: "24"
+          cache: npm
+
+      - run: npm ci
+
+      - name: Snapshot the current cache for comparison
+        run: cp data/history.json /tmp/history-before.json
+
+      - name: Crawl history
+        run: npm run refresh:history
+
+      - name: Decide whether to commit
+        id: check
+        env:
+          FORCE: ${{ inputs.force }}
+        run: |
+          node --input-type=commonjs -e '
+            const fs = require("fs");
+            const before = JSON.parse(fs.readFileSync("/tmp/history-before.json", "utf8"));
+            const after = JSON.parse(fs.readFileSync("data/history.json", "utf8"));
+            const oldN = Object.keys(before.players).length;
+            const newN = Object.keys(after.players).length;
+
+            // A rate-limited or partially failed crawl still writes a valid file,
+            // just a thin one. Refuse to commit that over good data.
+            if (newN < 200 || newN < oldN * 0.8) {
+              console.error(`Crawl looks incomplete: ${newN} players vs ${oldN} before. Not committing.`);
+              process.exit(1);
+            }
+
+            const advanced = after.throughGw > before.throughGw;
+            const force = process.env.FORCE === "true";
+            const commit = advanced || force;
+            console.log(`players ${oldN} -> ${newN}, throughGw ${before.throughGw} -> ${after.throughGw}`);
+            console.log(commit ? "Committing." : "No new audited gameweek; nothing to do.");
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, `commit=${commit}\n`);
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, `gw=${after.throughGw}\n`);
+          '
+
+      # Keep the offline fallback roughly current, but only on days we are
+      # already committing — its generatedAt changes every run, so refreshing it
+      # daily would churn a 450KB file for no benefit.
+      - name: Refresh snapshot
+        if: steps.check.outputs.commit == 'true'
+        run: npm run refresh
+
+      - name: Commit and push
+        if: steps.check.outputs.commit == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/history.json data/snapshot.json
+          if git diff --staged --quiet; then
+            echo "Files identical after refresh; nothing to commit."
+            exit 0
+          fi
+          git commit -m "Refresh FPL data through GW${{ steps.check.outputs.gw }}"
+          git push

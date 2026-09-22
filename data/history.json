@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-19T02:40:53.564Z",
+  "generatedAt": "2026-09-22T10:47:52.291Z",
   "season": "2026/27",
-  "throughGw": 4,
+  "throughGw": 5,
   "players": {
     "1": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -22,13 +22,17 @@
         {
           "gw": 4,
           "dc": 0
+        },
+        {
+          "gw": 5,
+          "dc": 0
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "4": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 2,
       "dcByGw": [
         {
@@ -46,6 +50,10 @@
         {
           "gw": 4,
           "dc": 11
+        },
+        {
+          "gw": 5,
+          "dc": 9
         }
       ],
       "dcPer90Prev": 9.065454545454545,
@@ -79,7 +87,7 @@
       "prevSeason": "2025/26"
     },
     "8": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -97,6 +105,10 @@
         {
           "gw": 4,
           "dc": 4
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 5.409546258102534,
@@ -146,7 +158,7 @@
       "prevSeason": "2025/26"
     },
     "12": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -164,13 +176,17 @@
         {
           "gw": 4,
           "dc": 7
+        },
+        {
+          "gw": 5,
+          "dc": 2
         }
       ],
       "dcPer90Prev": 7.466185752930567,
       "prevSeason": "2025/26"
     },
     "13": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -188,6 +204,10 @@
         {
           "gw": 4,
           "dc": 10
+        },
+        {
+          "gw": 5,
+          "dc": 8
         }
       ],
       "dcPer90Prev": 10.940834141610086,
@@ -201,7 +221,7 @@
       "prevSeason": "2025/26"
     },
     "15": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -219,6 +239,10 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 2
         }
       ],
       "dcPer90Prev": 6.735143066764491,
@@ -245,6 +269,13 @@
       "dcPer90Prev": 9.237713139418254,
       "prevSeason": "2025/26"
     },
+    "20": {
+      "apps": 0,
+      "dcHits": 0,
+      "dcByGw": [],
+      "dcPer90Prev": null,
+      "prevSeason": null
+    },
     "25": {
       "apps": 0,
       "dcHits": 0,
@@ -253,7 +284,7 @@
       "prevSeason": "2025/26"
     },
     "26": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -271,13 +302,17 @@
         {
           "gw": 4,
           "dc": 2
+        },
+        {
+          "gw": 5,
+          "dc": 3
         }
       ],
       "dcPer90Prev": 4.991334488734835,
       "prevSeason": "2025/26"
     },
     "28": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -290,6 +325,10 @@
         },
         {
           "gw": 4,
+          "dc": 0
+        },
+        {
+          "gw": 5,
           "dc": 0
         }
       ],
@@ -309,7 +348,7 @@
       "prevSeason": null
     },
     "31": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -319,6 +358,10 @@
         {
           "gw": 4,
           "dc": 8
+        },
+        {
+          "gw": 5,
+          "dc": 4
         }
       ],
       "dcPer90Prev": 5.812191103789127,
@@ -345,8 +388,8 @@
       "prevSeason": "2025/26"
     },
     "33": {
-      "apps": 2,
-      "dcHits": 0,
+      "apps": 3,
+      "dcHits": 1,
       "dcByGw": [
         {
           "gw": 3,
@@ -355,6 +398,10 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 13
         }
       ],
       "dcPer90Prev": 7.2844175491679275,
@@ -408,7 +455,7 @@
       "prevSeason": "2025/26"
     },
     "37": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -426,13 +473,17 @@
         {
           "gw": 4,
           "dc": 2
+        },
+        {
+          "gw": 5,
+          "dc": 6
         }
       ],
       "dcPer90Prev": 5.159235668789809,
       "prevSeason": "2025/26"
     },
     "40": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -450,14 +501,18 @@
         {
           "gw": 4,
           "dc": 6
+        },
+        {
+          "gw": 5,
+          "dc": 8
         }
       ],
       "dcPer90Prev": 6.310975609756098,
       "prevSeason": "2025/26"
     },
     "41": {
-      "apps": 4,
-      "dcHits": 0,
+      "apps": 5,
+      "dcHits": 1,
       "dcByGw": [
         {
           "gw": 1,
@@ -474,6 +529,10 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 15
         }
       ],
       "dcPer90Prev": 10.114090131203652,
@@ -487,8 +546,8 @@
       "prevSeason": "2025/26"
     },
     "43": {
-      "apps": 4,
-      "dcHits": 1,
+      "apps": 5,
+      "dcHits": 2,
       "dcByGw": [
         {
           "gw": 1,
@@ -505,13 +564,17 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 13
         }
       ],
       "dcPer90Prev": 9.838449111470114,
       "prevSeason": "2025/26"
     },
     "45": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -529,6 +592,10 @@
         {
           "gw": 4,
           "dc": 9
+        },
+        {
+          "gw": 5,
+          "dc": 6
         }
       ],
       "dcPer90Prev": 6.320224719101124,
@@ -559,7 +626,7 @@
       "prevSeason": "2025/26"
     },
     "47": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -577,6 +644,10 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 6
         }
       ],
       "dcPer90Prev": 9.51063829787234,
@@ -610,16 +681,26 @@
       "prevSeason": null
     },
     "53": {
-      "apps": 0,
+      "apps": 1,
       "dcHits": 0,
-      "dcByGw": [],
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 7
+        }
+      ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "54": {
-      "apps": 0,
-      "dcHits": 0,
-      "dcByGw": [],
+      "apps": 1,
+      "dcHits": 1,
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 13
+        }
+      ],
       "dcPer90Prev": 12.311770943796393,
       "prevSeason": "2025/26"
     },
@@ -631,7 +712,7 @@
       "prevSeason": "2020/21"
     },
     "57": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -649,14 +730,18 @@
         {
           "gw": 4,
           "dc": 0
+        },
+        {
+          "gw": 5,
+          "dc": 0
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "60": {
-      "apps": 4,
-      "dcHits": 2,
+      "apps": 5,
+      "dcHits": 3,
       "dcByGw": [
         {
           "gw": 1,
@@ -673,13 +758,17 @@
         {
           "gw": 4,
           "dc": 11
+        },
+        {
+          "gw": 5,
+          "dc": 15
         }
       ],
       "dcPer90Prev": 11.132254995242626,
       "prevSeason": "2025/26"
     },
     "61": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -697,13 +786,17 @@
         {
           "gw": 4,
           "dc": 16
+        },
+        {
+          "gw": 5,
+          "dc": 7
         }
       ],
       "dcPer90Prev": 8.019538188277087,
       "prevSeason": "2025/26"
     },
     "64": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -721,13 +814,17 @@
         {
           "gw": 4,
           "dc": 6
+        },
+        {
+          "gw": 5,
+          "dc": 0
         }
       ],
       "dcPer90Prev": 5.871388630009319,
       "prevSeason": "2025/26"
     },
     "67": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -745,13 +842,17 @@
         {
           "gw": 4,
           "dc": 3
+        },
+        {
+          "gw": 5,
+          "dc": 4
         }
       ],
       "dcPer90Prev": 6.648648648648648,
       "prevSeason": "2025/26"
     },
     "68": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -769,13 +870,17 @@
         {
           "gw": 4,
           "dc": 8
+        },
+        {
+          "gw": 5,
+          "dc": 6
         }
       ],
       "dcPer90Prev": 8.268667642752561,
       "prevSeason": "2025/26"
     },
     "69": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 2,
       "dcByGw": [
         {
@@ -793,6 +898,10 @@
         {
           "gw": 4,
           "dc": 15
+        },
+        {
+          "gw": 5,
+          "dc": 8
         }
       ],
       "dcPer90Prev": 12.19803370786517,
@@ -846,8 +955,8 @@
       "prevSeason": null
     },
     "73": {
-      "apps": 2,
-      "dcHits": 1,
+      "apps": 3,
+      "dcHits": 2,
       "dcByGw": [
         {
           "gw": 3,
@@ -856,6 +965,10 @@
         {
           "gw": 4,
           "dc": 10
+        },
+        {
+          "gw": 5,
+          "dc": 13
         }
       ],
       "dcPer90Prev": 11.80327868852459,
@@ -869,9 +982,14 @@
       "prevSeason": "2025/26"
     },
     "75": {
-      "apps": 0,
+      "apps": 1,
       "dcHits": 0,
-      "dcByGw": [],
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 5
+        }
+      ],
       "dcPer90Prev": 11.319018404907975,
       "prevSeason": "2025/26"
     },
@@ -883,7 +1001,7 @@
       "prevSeason": null
     },
     "79": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -901,6 +1019,10 @@
         {
           "gw": 4,
           "dc": 4
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 4.432688799708136,
@@ -914,7 +1036,7 @@
       "prevSeason": null
     },
     "82": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -931,6 +1053,10 @@
         },
         {
           "gw": 4,
+          "dc": 0
+        },
+        {
+          "gw": 5,
           "dc": 0
         }
       ],
@@ -954,7 +1080,7 @@
       "prevSeason": "2025/26"
     },
     "86": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -968,13 +1094,17 @@
         {
           "gw": 3,
           "dc": 6
+        },
+        {
+          "gw": 5,
+          "dc": 9
         }
       ],
       "dcPer90Prev": 3.3979591836734695,
       "prevSeason": "2025/26"
     },
     "87": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 2,
       "dcByGw": [
         {
@@ -992,13 +1122,17 @@
         {
           "gw": 4,
           "dc": 9
+        },
+        {
+          "gw": 5,
+          "dc": 9
         }
       ],
       "dcPer90Prev": 9.573407202216066,
       "prevSeason": "2025/26"
     },
     "88": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1008,6 +1142,10 @@
         {
           "gw": 2,
           "dc": 4
+        },
+        {
+          "gw": 5,
+          "dc": 2
         }
       ],
       "dcPer90Prev": 6.049723756906077,
@@ -1033,8 +1171,8 @@
       "prevSeason": "2025/26"
     },
     "91": {
-      "apps": 2,
-      "dcHits": 2,
+      "apps": 3,
+      "dcHits": 3,
       "dcByGw": [
         {
           "gw": 3,
@@ -1043,14 +1181,18 @@
         {
           "gw": 4,
           "dc": 10
+        },
+        {
+          "gw": 5,
+          "dc": 19
         }
       ],
       "dcPer90Prev": 10.167364016736402,
       "prevSeason": "2024/25"
     },
     "93": {
-      "apps": 2,
-      "dcHits": 2,
+      "apps": 3,
+      "dcHits": 3,
       "dcByGw": [
         {
           "gw": 3,
@@ -1059,13 +1201,17 @@
         {
           "gw": 4,
           "dc": 12
+        },
+        {
+          "gw": 5,
+          "dc": 16
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "94": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1083,6 +1229,10 @@
         {
           "gw": 4,
           "dc": 4
+        },
+        {
+          "gw": 5,
+          "dc": 7
         }
       ],
       "dcPer90Prev": 6.231778425655977,
@@ -1101,7 +1251,7 @@
       "prevSeason": "2025/26"
     },
     "96": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1111,6 +1261,10 @@
         {
           "gw": 3,
           "dc": 4
+        },
+        {
+          "gw": 5,
+          "dc": 10
         }
       ],
       "dcPer90Prev": 10.60117302052786,
@@ -1129,7 +1283,7 @@
       "prevSeason": "2025/26"
     },
     "98": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 3,
       "dcByGw": [
         {
@@ -1147,6 +1301,10 @@
         {
           "gw": 4,
           "dc": 20
+        },
+        {
+          "gw": 5,
+          "dc": 9
         }
       ],
       "dcPer90Prev": 11.485355648535565,
@@ -1160,21 +1318,31 @@
       "prevSeason": null
     },
     "101": {
-      "apps": 0,
+      "apps": 1,
       "dcHits": 0,
-      "dcByGw": [],
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 10
+        }
+      ],
       "dcPer90Prev": 8.618524332810047,
       "prevSeason": "2025/26"
     },
     "102": {
-      "apps": 0,
+      "apps": 1,
       "dcHits": 0,
-      "dcByGw": [],
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 10
+        }
+      ],
       "dcPer90Prev": 11.470588235294116,
       "prevSeason": "2025/26"
     },
     "104": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1188,25 +1356,33 @@
         {
           "gw": 4,
           "dc": 7
+        },
+        {
+          "gw": 5,
+          "dc": 9
         }
       ],
       "dcPer90Prev": 0,
       "prevSeason": "2023/24"
     },
     "105": {
-      "apps": 1,
+      "apps": 2,
       "dcHits": 0,
       "dcByGw": [
         {
           "gw": 2,
           "dc": 1
+        },
+        {
+          "gw": 5,
+          "dc": 2
         }
       ],
       "dcPer90Prev": 7.684946632315054,
       "prevSeason": "2025/26"
     },
     "106": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1224,6 +1400,10 @@
         {
           "gw": 4,
           "dc": 1
+        },
+        {
+          "gw": 5,
+          "dc": 3
         }
       ],
       "dcPer90Prev": 5.86837294332724,
@@ -1237,7 +1417,7 @@
       "prevSeason": "2025/26"
     },
     "109": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1254,6 +1434,10 @@
         },
         {
           "gw": 4,
+          "dc": 0
+        },
+        {
+          "gw": 5,
           "dc": 0
         }
       ],
@@ -1261,7 +1445,7 @@
       "prevSeason": null
     },
     "110": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1279,13 +1463,17 @@
         {
           "gw": 4,
           "dc": 0
+        },
+        {
+          "gw": 5,
+          "dc": 0
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "112": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -1303,13 +1491,17 @@
         {
           "gw": 4,
           "dc": 13
+        },
+        {
+          "gw": 5,
+          "dc": 9
         }
       ],
       "dcPer90Prev": 8.88785046728972,
       "prevSeason": "2025/26"
     },
     "113": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1323,13 +1515,17 @@
         {
           "gw": 4,
           "dc": 2
+        },
+        {
+          "gw": 5,
+          "dc": 3
         }
       ],
       "dcPer90Prev": 4.888178913738019,
       "prevSeason": "2025/26"
     },
     "114": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1347,13 +1543,17 @@
         {
           "gw": 4,
           "dc": 9
+        },
+        {
+          "gw": 5,
+          "dc": 7
         }
       ],
       "dcPer90Prev": 8.785982478097623,
       "prevSeason": "2025/26"
     },
     "115": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1371,6 +1571,10 @@
         {
           "gw": 4,
           "dc": 1
+        },
+        {
+          "gw": 5,
+          "dc": 7
         }
       ],
       "dcPer90Prev": 4.102564102564103,
@@ -1407,6 +1611,13 @@
       "dcPer90Prev": null,
       "prevSeason": null
     },
+    "120": {
+      "apps": 0,
+      "dcHits": 0,
+      "dcByGw": [],
+      "dcPer90Prev": null,
+      "prevSeason": null
+    },
     "123": {
       "apps": 1,
       "dcHits": 0,
@@ -1420,7 +1631,7 @@
       "prevSeason": "2025/26"
     },
     "124": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1438,6 +1649,10 @@
         {
           "gw": 4,
           "dc": 6
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 7.97677261613692,
@@ -1463,8 +1678,8 @@
       "prevSeason": "2024/25"
     },
     "127": {
-      "apps": 4,
-      "dcHits": 0,
+      "apps": 5,
+      "dcHits": 1,
       "dcByGw": [
         {
           "gw": 1,
@@ -1481,13 +1696,17 @@
         {
           "gw": 4,
           "dc": 3
+        },
+        {
+          "gw": 5,
+          "dc": 13
         }
       ],
       "dcPer90Prev": 10.11809163911195,
       "prevSeason": "2025/26"
     },
     "129": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1500,6 +1719,10 @@
         },
         {
           "gw": 4,
+          "dc": 7
+        },
+        {
+          "gw": 5,
           "dc": 7
         }
       ],
@@ -1530,14 +1753,19 @@
       "prevSeason": null
     },
     "136": {
-      "apps": 0,
+      "apps": 1,
       "dcHits": 0,
-      "dcByGw": [],
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 4
+        }
+      ],
       "dcPer90Prev": 4.481991996442863,
       "prevSeason": "2025/26"
     },
     "138": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1551,6 +1779,10 @@
         {
           "gw": 4,
           "dc": 7
+        },
+        {
+          "gw": 5,
+          "dc": 4
         }
       ],
       "dcPer90Prev": null,
@@ -1609,8 +1841,8 @@
       "prevSeason": "2025/26"
     },
     "145": {
-      "apps": 3,
-      "dcHits": 1,
+      "apps": 4,
+      "dcHits": 2,
       "dcByGw": [
         {
           "gw": 2,
@@ -1623,6 +1855,10 @@
         {
           "gw": 4,
           "dc": 6
+        },
+        {
+          "gw": 5,
+          "dc": 15
         }
       ],
       "dcPer90Prev": 10.79161816065192,
@@ -1652,7 +1888,7 @@
       "prevSeason": "2025/26"
     },
     "149": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1666,6 +1902,10 @@
         {
           "gw": 4,
           "dc": 6
+        },
+        {
+          "gw": 5,
+          "dc": 7
         }
       ],
       "dcPer90Prev": 6.314285714285714,
@@ -1700,7 +1940,7 @@
       "prevSeason": "2025/26"
     },
     "154": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1718,13 +1958,17 @@
         {
           "gw": 4,
           "dc": 3
+        },
+        {
+          "gw": 5,
+          "dc": 6
         }
       ],
       "dcPer90Prev": 6.218014329580348,
       "prevSeason": "2025/26"
     },
     "155": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1734,13 +1978,17 @@
         {
           "gw": 4,
           "dc": 10
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 7.0520231213872835,
       "prevSeason": "2025/26"
     },
     "156": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1754,6 +2002,10 @@
         {
           "gw": 4,
           "dc": 7
+        },
+        {
+          "gw": 5,
+          "dc": 6
         }
       ],
       "dcPer90Prev": 4.176492963103842,
@@ -1844,7 +2096,7 @@
       "prevSeason": "2025/26"
     },
     "166": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1854,13 +2106,17 @@
         {
           "gw": 3,
           "dc": 2
+        },
+        {
+          "gw": 5,
+          "dc": 4
         }
       ],
       "dcPer90Prev": 3.6486486486486487,
       "prevSeason": "2024/25"
     },
     "167": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1870,14 +2126,18 @@
         {
           "gw": 4,
           "dc": 4
+        },
+        {
+          "gw": 5,
+          "dc": 8
         }
       ],
       "dcPer90Prev": 3.4615384615384617,
       "prevSeason": "2025/26"
     },
     "173": {
-      "apps": 4,
-      "dcHits": 2,
+      "apps": 5,
+      "dcHits": 3,
       "dcByGw": [
         {
           "gw": 1,
@@ -1894,6 +2154,10 @@
         {
           "gw": 4,
           "dc": 8
+        },
+        {
+          "gw": 5,
+          "dc": 13
         }
       ],
       "dcPer90Prev": null,
@@ -1924,7 +2188,7 @@
       "prevSeason": null
     },
     "176": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -1942,8 +2206,19 @@
         {
           "gw": 4,
           "dc": 3
+        },
+        {
+          "gw": 5,
+          "dc": 4
         }
       ],
+      "dcPer90Prev": null,
+      "prevSeason": null
+    },
+    "179": {
+      "apps": 0,
+      "dcHits": 0,
+      "dcByGw": [],
       "dcPer90Prev": null,
       "prevSeason": null
     },
@@ -1972,8 +2247,8 @@
       "prevSeason": null
     },
     "183": {
-      "apps": 3,
-      "dcHits": 0,
+      "apps": 4,
+      "dcHits": 1,
       "dcByGw": [
         {
           "gw": 2,
@@ -1986,13 +2261,17 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 13
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "184": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -2010,6 +2289,10 @@
         {
           "gw": 4,
           "dc": 3
+        },
+        {
+          "gw": 5,
+          "dc": 10
         }
       ],
       "dcPer90Prev": null,
@@ -2054,12 +2337,16 @@
       "prevSeason": "2025/26"
     },
     "194": {
-      "apps": 1,
-      "dcHits": 0,
+      "apps": 2,
+      "dcHits": 1,
       "dcByGw": [
         {
           "gw": 1,
           "dc": 6
+        },
+        {
+          "gw": 5,
+          "dc": 16
         }
       ],
       "dcPer90Prev": null,
@@ -2098,11 +2385,15 @@
       "prevSeason": null
     },
     "199": {
-      "apps": 1,
+      "apps": 2,
       "dcHits": 0,
       "dcByGw": [
         {
           "gw": 4,
+          "dc": 0
+        },
+        {
+          "gw": 5,
           "dc": 0
         }
       ],
@@ -2110,8 +2401,8 @@
       "prevSeason": null
     },
     "200": {
-      "apps": 3,
-      "dcHits": 2,
+      "apps": 4,
+      "dcHits": 3,
       "dcByGw": [
         {
           "gw": 1,
@@ -2124,26 +2415,34 @@
         {
           "gw": 3,
           "dc": 11
+        },
+        {
+          "gw": 5,
+          "dc": 12
         }
       ],
       "dcPer90Prev": 10.794165316045381,
       "prevSeason": "2025/26"
     },
     "201": {
-      "apps": 1,
+      "apps": 2,
       "dcHits": 0,
       "dcByGw": [
         {
           "gw": 4,
           "dc": 7
+        },
+        {
+          "gw": 5,
+          "dc": 3
         }
       ],
       "dcPer90Prev": 7.35,
       "prevSeason": "2025/26"
     },
     "202": {
-      "apps": 4,
-      "dcHits": 2,
+      "apps": 5,
+      "dcHits": 3,
       "dcByGw": [
         {
           "gw": 1,
@@ -2160,14 +2459,18 @@
         {
           "gw": 4,
           "dc": 13
+        },
+        {
+          "gw": 5,
+          "dc": 10
         }
       ],
       "dcPer90Prev": 9.907964601769912,
       "prevSeason": "2025/26"
     },
     "203": {
-      "apps": 3,
-      "dcHits": 0,
+      "apps": 4,
+      "dcHits": 1,
       "dcByGw": [
         {
           "gw": 1,
@@ -2180,13 +2483,17 @@
         {
           "gw": 3,
           "dc": 9
+        },
+        {
+          "gw": 5,
+          "dc": 10
         }
       ],
       "dcPer90Prev": 11.427498121712997,
       "prevSeason": "2025/26"
     },
     "204": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -2204,6 +2511,10 @@
         {
           "gw": 4,
           "dc": 1
+        },
+        {
+          "gw": 5,
+          "dc": 8
         }
       ],
       "dcPer90Prev": 6.778358438364586,
@@ -2228,8 +2539,15 @@
       "dcPer90Prev": null,
       "prevSeason": null
     },
+    "208": {
+      "apps": 0,
+      "dcHits": 0,
+      "dcByGw": [],
+      "dcPer90Prev": 5.674183156925908,
+      "prevSeason": "2025/26"
+    },
     "209": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -2239,13 +2557,17 @@
         {
           "gw": 4,
           "dc": 6
+        },
+        {
+          "gw": 5,
+          "dc": 8
         }
       ],
       "dcPer90Prev": 6.368421052631579,
       "prevSeason": "2025/26"
     },
     "210": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -2263,13 +2585,17 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 7
         }
       ],
       "dcPer90Prev": 10.685736677115987,
       "prevSeason": "2025/26"
     },
     "211": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -2278,6 +2604,10 @@
         },
         {
           "gw": 3,
+          "dc": 5
+        },
+        {
+          "gw": 5,
           "dc": 5
         }
       ],
@@ -2299,7 +2629,7 @@
       "prevSeason": "2025/26"
     },
     "214": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -2317,13 +2647,17 @@
         {
           "gw": 4,
           "dc": 1
+        },
+        {
+          "gw": 5,
+          "dc": 10
         }
       ],
       "dcPer90Prev": 9.857819905213269,
       "prevSeason": "2025/26"
     },
     "222": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -2333,6 +2667,10 @@
         {
           "gw": 4,
           "dc": 2
+        },
+        {
+          "gw": 5,
+          "dc": 3
         }
       ],
       "dcPer90Prev": 3.7157757496740547,
@@ -2363,7 +2701,7 @@
       "prevSeason": "2024/25"
     },
     "226": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -2381,14 +2719,18 @@
         {
           "gw": 4,
           "dc": 0
+        },
+        {
+          "gw": 5,
+          "dc": 0
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "229": {
-      "apps": 4,
-      "dcHits": 2,
+      "apps": 5,
+      "dcHits": 3,
       "dcByGw": [
         {
           "gw": 1,
@@ -2405,14 +2747,18 @@
         {
           "gw": 4,
           "dc": 8
+        },
+        {
+          "gw": 5,
+          "dc": 12
         }
       ],
       "dcPer90Prev": 10.162162162162163,
       "prevSeason": "2025/26"
     },
     "230": {
-      "apps": 4,
-      "dcHits": 2,
+      "apps": 5,
+      "dcHits": 3,
       "dcByGw": [
         {
           "gw": 1,
@@ -2429,6 +2775,10 @@
         {
           "gw": 4,
           "dc": 9
+        },
+        {
+          "gw": 5,
+          "dc": 14
         }
       ],
       "dcPer90Prev": 8.893805309734514,
@@ -2442,7 +2792,7 @@
       "prevSeason": "2025/26"
     },
     "233": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 2,
       "dcByGw": [
         {
@@ -2460,13 +2810,17 @@
         {
           "gw": 4,
           "dc": 11
+        },
+        {
+          "gw": 5,
+          "dc": 6
         }
       ],
       "dcPer90Prev": 7.026022304832714,
       "prevSeason": "2025/26"
     },
     "236": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -2484,13 +2838,17 @@
         {
           "gw": 4,
           "dc": 6
+        },
+        {
+          "gw": 5,
+          "dc": 7
         }
       ],
       "dcPer90Prev": 7.873716241917078,
       "prevSeason": "2025/26"
     },
     "237": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 2,
       "dcByGw": [
         {
@@ -2504,20 +2862,29 @@
         {
           "gw": 3,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 4
         }
       ],
       "dcPer90Prev": 9.158576051779935,
       "prevSeason": "2025/26"
     },
     "238": {
-      "apps": 0,
+      "apps": 1,
       "dcHits": 0,
-      "dcByGw": [],
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 7
+        }
+      ],
       "dcPer90Prev": 7.467732022126613,
       "prevSeason": "2025/26"
     },
     "239": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -2531,6 +2898,10 @@
         {
           "gw": 4,
           "dc": 17
+        },
+        {
+          "gw": 5,
+          "dc": 9
         }
       ],
       "dcPer90Prev": 12.077351303838265,
@@ -2587,7 +2958,7 @@
       "prevSeason": "2025/26"
     },
     "244": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -2605,10 +2976,21 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 8.587786259541986,
       "prevSeason": "2025/26"
+    },
+    "245": {
+      "apps": 0,
+      "dcHits": 0,
+      "dcByGw": [],
+      "dcPer90Prev": 6.908212560386473,
+      "prevSeason": "2024/25"
     },
     "246": {
       "apps": 3,
@@ -2650,7 +3032,7 @@
       "prevSeason": "2025/26"
     },
     "249": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -2668,13 +3050,17 @@
         {
           "gw": 4,
           "dc": 2
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 3.5089567966280297,
       "prevSeason": "2025/26"
     },
     "250": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -2691,6 +3077,10 @@
         },
         {
           "gw": 4,
+          "dc": 0
+        },
+        {
+          "gw": 5,
           "dc": 0
         }
       ],
@@ -2714,7 +3104,7 @@
       "prevSeason": "2025/26"
     },
     "254": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -2732,6 +3122,10 @@
         {
           "gw": 4,
           "dc": 9
+        },
+        {
+          "gw": 5,
+          "dc": 7
         }
       ],
       "dcPer90Prev": 8.231338264963012,
@@ -2757,7 +3151,7 @@
       "prevSeason": "2025/26"
     },
     "257": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -2775,13 +3169,17 @@
         {
           "gw": 4,
           "dc": 8
+        },
+        {
+          "gw": 5,
+          "dc": 8
         }
       ],
       "dcPer90Prev": 7.286729857819905,
       "prevSeason": "2025/26"
     },
     "258": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -2799,14 +3197,18 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 9
         }
       ],
       "dcPer90Prev": 7.149075081610446,
       "prevSeason": "2025/26"
     },
     "259": {
-      "apps": 4,
-      "dcHits": 2,
+      "apps": 5,
+      "dcHits": 3,
       "dcByGw": [
         {
           "gw": 1,
@@ -2823,6 +3225,10 @@
         {
           "gw": 4,
           "dc": 7
+        },
+        {
+          "gw": 5,
+          "dc": 10
         }
       ],
       "dcPer90Prev": 6.761083743842365,
@@ -2841,7 +3247,7 @@
       "prevSeason": "2025/26"
     },
     "261": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -2859,6 +3265,10 @@
         {
           "gw": 4,
           "dc": 4
+        },
+        {
+          "gw": 5,
+          "dc": 7
         }
       ],
       "dcPer90Prev": 6.991735537190083,
@@ -2879,7 +3289,7 @@
       "prevSeason": "2025/26"
     },
     "264": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -2897,13 +3307,17 @@
         {
           "gw": 4,
           "dc": 7
+        },
+        {
+          "gw": 5,
+          "dc": 6
         }
       ],
       "dcPer90Prev": 6.640776699029126,
       "prevSeason": "2025/26"
     },
     "265": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -2917,13 +3331,17 @@
         {
           "gw": 4,
           "dc": 9
+        },
+        {
+          "gw": 5,
+          "dc": 2
         }
       ],
       "dcPer90Prev": 8.677685950413224,
       "prevSeason": "2025/26"
     },
     "267": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -2941,13 +3359,17 @@
         {
           "gw": 4,
           "dc": 10
+        },
+        {
+          "gw": 5,
+          "dc": 6
         }
       ],
       "dcPer90Prev": 9.520231213872833,
       "prevSeason": "2025/26"
     },
     "268": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -2965,6 +3387,10 @@
         {
           "gw": 4,
           "dc": 4
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 7.465116279069768,
@@ -2985,7 +3411,7 @@
       "prevSeason": "2025/26"
     },
     "277": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 3,
       "dcByGw": [
         {
@@ -3003,13 +3429,17 @@
         {
           "gw": 4,
           "dc": 14
+        },
+        {
+          "gw": 5,
+          "dc": 4
         }
       ],
       "dcPer90Prev": 0,
       "prevSeason": "2023/24"
     },
     "279": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3027,13 +3457,17 @@
         {
           "gw": 4,
           "dc": 3
+        },
+        {
+          "gw": 5,
+          "dc": 4
         }
       ],
       "dcPer90Prev": 0,
       "prevSeason": "2020/21"
     },
     "280": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3047,6 +3481,10 @@
         {
           "gw": 4,
           "dc": 3
+        },
+        {
+          "gw": 5,
+          "dc": 2
         }
       ],
       "dcPer90Prev": null,
@@ -3060,7 +3498,7 @@
       "prevSeason": null
     },
     "282": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3078,6 +3516,10 @@
         {
           "gw": 4,
           "dc": 7
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 0,
@@ -3091,7 +3533,7 @@
       "prevSeason": "2014/15"
     },
     "286": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -3105,6 +3547,10 @@
         {
           "gw": 3,
           "dc": 12
+        },
+        {
+          "gw": 5,
+          "dc": 11
         }
       ],
       "dcPer90Prev": null,
@@ -3134,7 +3580,7 @@
       "prevSeason": null
     },
     "290": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3152,13 +3598,17 @@
         {
           "gw": 4,
           "dc": 11
+        },
+        {
+          "gw": 5,
+          "dc": 3
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "295": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3176,13 +3626,29 @@
         {
           "gw": 4,
           "dc": 3
+        },
+        {
+          "gw": 5,
+          "dc": 6
         }
       ],
       "dcPer90Prev": 0,
       "prevSeason": "2023/24"
     },
+    "300": {
+      "apps": 1,
+      "dcHits": 0,
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 0
+        }
+      ],
+      "dcPer90Prev": null,
+      "prevSeason": null
+    },
     "304": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 2,
       "dcByGw": [
         {
@@ -3200,13 +3666,17 @@
         {
           "gw": 4,
           "dc": 9
+        },
+        {
+          "gw": 5,
+          "dc": 9
         }
       ],
       "dcPer90Prev": 10.08968609865471,
       "prevSeason": "2024/25"
     },
     "305": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3224,6 +3694,10 @@
         {
           "gw": 4,
           "dc": 2
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 4.923413566739606,
@@ -3277,19 +3751,23 @@
       "prevSeason": null
     },
     "313": {
-      "apps": 1,
+      "apps": 2,
       "dcHits": 0,
       "dcByGw": [
         {
           "gw": 4,
           "dc": 2
+        },
+        {
+          "gw": 5,
+          "dc": 4
         }
       ],
       "dcPer90Prev": 10.62015503875969,
       "prevSeason": "2024/25"
     },
     "315": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3307,13 +3785,17 @@
         {
           "gw": 4,
           "dc": 7
+        },
+        {
+          "gw": 5,
+          "dc": 4
         }
       ],
       "dcPer90Prev": 11.71875,
       "prevSeason": "2024/25"
     },
     "316": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3327,6 +3809,10 @@
         {
           "gw": 4,
           "dc": 2
+        },
+        {
+          "gw": 5,
+          "dc": 1
         }
       ],
       "dcPer90Prev": null,
@@ -3373,9 +3859,14 @@
       "prevSeason": "2025/26"
     },
     "328": {
-      "apps": 0,
+      "apps": 1,
       "dcHits": 0,
-      "dcByGw": [],
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 6
+        }
+      ],
       "dcPer90Prev": 9.107325383304941,
       "prevSeason": "2025/26"
     },
@@ -3392,7 +3883,7 @@
       "prevSeason": "2025/26"
     },
     "330": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3410,13 +3901,17 @@
         {
           "gw": 4,
           "dc": 3
+        },
+        {
+          "gw": 5,
+          "dc": 1
         }
       ],
       "dcPer90Prev": 5.731663685152057,
       "prevSeason": "2025/26"
     },
     "331": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3426,13 +3921,17 @@
         {
           "gw": 4,
           "dc": 4
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 6.279863481228669,
       "prevSeason": "2025/26"
     },
     "332": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 2,
       "dcByGw": [
         {
@@ -3450,13 +3949,17 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 9
         }
       ],
       "dcPer90Prev": 8.700475435816164,
       "prevSeason": "2025/26"
     },
     "334": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 3,
       "dcByGw": [
         {
@@ -3474,14 +3977,18 @@
         {
           "gw": 4,
           "dc": 11
+        },
+        {
+          "gw": 5,
+          "dc": 8
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "335": {
-      "apps": 4,
-      "dcHits": 2,
+      "apps": 5,
+      "dcHits": 3,
       "dcByGw": [
         {
           "gw": 1,
@@ -3498,13 +4005,17 @@
         {
           "gw": 4,
           "dc": 10
+        },
+        {
+          "gw": 5,
+          "dc": 13
         }
       ],
       "dcPer90Prev": 10.10552975939215,
       "prevSeason": "2025/26"
     },
     "336": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3518,6 +4029,10 @@
         {
           "gw": 4,
           "dc": 6
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 6.548615582743078,
@@ -3536,8 +4051,8 @@
       "prevSeason": "2025/26"
     },
     "338": {
-      "apps": 4,
-      "dcHits": 2,
+      "apps": 5,
+      "dcHits": 3,
       "dcByGw": [
         {
           "gw": 1,
@@ -3554,6 +4069,10 @@
         {
           "gw": 4,
           "dc": 12
+        },
+        {
+          "gw": 5,
+          "dc": 14
         }
       ],
       "dcPer90Prev": 12.003847386983008,
@@ -3566,6 +4085,13 @@
       "dcPer90Prev": 9.870388833499502,
       "prevSeason": "2025/26"
     },
+    "340": {
+      "apps": 0,
+      "dcHits": 0,
+      "dcByGw": [],
+      "dcPer90Prev": 0,
+      "prevSeason": "2021/22"
+    },
     "343": {
       "apps": 0,
       "dcHits": 0,
@@ -3574,7 +4100,7 @@
       "prevSeason": "2025/26"
     },
     "345": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3584,13 +4110,17 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 10.122417750573833,
       "prevSeason": "2025/26"
     },
     "346": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3608,6 +4138,10 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 8
         }
       ],
       "dcPer90Prev": 3.4729878721058434,
@@ -3621,7 +4155,7 @@
       "prevSeason": "2025/26"
     },
     "350": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3639,14 +4173,18 @@
         {
           "gw": 4,
           "dc": 0
+        },
+        {
+          "gw": 5,
+          "dc": 0
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "356": {
-      "apps": 4,
-      "dcHits": 2,
+      "apps": 5,
+      "dcHits": 3,
       "dcByGw": [
         {
           "gw": 1,
@@ -3663,6 +4201,10 @@
         {
           "gw": 4,
           "dc": 10
+        },
+        {
+          "gw": 5,
+          "dc": 13
         }
       ],
       "dcPer90Prev": 9.263157894736842,
@@ -3685,7 +4227,7 @@
       "prevSeason": "2025/26"
     },
     "358": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3699,13 +4241,17 @@
         {
           "gw": 3,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 7
         }
       ],
       "dcPer90Prev": 5.357618836072857,
       "prevSeason": "2025/26"
     },
     "362": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -3723,6 +4269,10 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 8
         }
       ],
       "dcPer90Prev": null,
@@ -3736,7 +4286,7 @@
       "prevSeason": "2024/25"
     },
     "366": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3754,13 +4304,17 @@
         {
           "gw": 4,
           "dc": 9
+        },
+        {
+          "gw": 5,
+          "dc": 8
         }
       ],
       "dcPer90Prev": 6.672283066554338,
       "prevSeason": "2025/26"
     },
     "367": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -3774,13 +4328,17 @@
         {
           "gw": 3,
           "dc": 10
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 5,
       "prevSeason": "2025/26"
     },
     "368": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -3797,6 +4355,10 @@
         },
         {
           "gw": 4,
+          "dc": 6
+        },
+        {
+          "gw": 5,
           "dc": 6
         }
       ],
@@ -3828,8 +4390,8 @@
       "prevSeason": "2025/26"
     },
     "372": {
-      "apps": 2,
-      "dcHits": 0,
+      "apps": 3,
+      "dcHits": 1,
       "dcByGw": [
         {
           "gw": 2,
@@ -3838,6 +4400,10 @@
         {
           "gw": 3,
           "dc": 11
+        },
+        {
+          "gw": 5,
+          "dc": 13
         }
       ],
       "dcPer90Prev": 7.765636774679729,
@@ -3867,7 +4433,7 @@
       "prevSeason": null
     },
     "379": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3885,6 +4451,10 @@
         {
           "gw": 4,
           "dc": 1
+        },
+        {
+          "gw": 5,
+          "dc": 1
         }
       ],
       "dcPer90Prev": 3.890489913544669,
@@ -3898,7 +4468,7 @@
       "prevSeason": null
     },
     "384": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3915,6 +4485,10 @@
         },
         {
           "gw": 4,
+          "dc": 0
+        },
+        {
+          "gw": 5,
           "dc": 0
         }
       ],
@@ -3922,7 +4496,7 @@
       "prevSeason": null
     },
     "385": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3939,6 +4513,10 @@
         },
         {
           "gw": 4,
+          "dc": 0
+        },
+        {
+          "gw": 5,
           "dc": 0
         }
       ],
@@ -3962,7 +4540,7 @@
       "prevSeason": "2025/26"
     },
     "388": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -3980,25 +4558,33 @@
         {
           "gw": 4,
           "dc": 7
+        },
+        {
+          "gw": 5,
+          "dc": 4
         }
       ],
       "dcPer90Prev": 7.942857142857143,
       "prevSeason": "2025/26"
     },
     "389": {
-      "apps": 1,
+      "apps": 2,
       "dcHits": 1,
       "dcByGw": [
         {
           "gw": 4,
           "dc": 11
+        },
+        {
+          "gw": 5,
+          "dc": 9
         }
       ],
       "dcPer90Prev": 6.134218804613771,
       "prevSeason": "2025/26"
     },
     "390": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4016,13 +4602,17 @@
         {
           "gw": 4,
           "dc": 7
+        },
+        {
+          "gw": 5,
+          "dc": 4
         }
       ],
       "dcPer90Prev": 7.026647966339411,
       "prevSeason": "2025/26"
     },
     "391": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4039,6 +4629,10 @@
         },
         {
           "gw": 4,
+          "dc": 7
+        },
+        {
+          "gw": 5,
           "dc": 7
         }
       ],
@@ -4080,7 +4674,7 @@
       "prevSeason": null
     },
     "397": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4098,6 +4692,10 @@
         {
           "gw": 4,
           "dc": 3
+        },
+        {
+          "gw": 5,
+          "dc": 7
         }
       ],
       "dcPer90Prev": 6.637499999999999,
@@ -4120,7 +4718,7 @@
       "prevSeason": "2025/26"
     },
     "399": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4130,13 +4728,24 @@
         {
           "gw": 3,
           "dc": 3
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 6.85665914221219,
       "prevSeason": "2025/26"
     },
+    "400": {
+      "apps": 0,
+      "dcHits": 0,
+      "dcByGw": [],
+      "dcPer90Prev": 6.395939086294416,
+      "prevSeason": "2025/26"
+    },
     "401": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4150,13 +4759,17 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 4
         }
       ],
       "dcPer90Prev": 5.07959479015919,
       "prevSeason": "2025/26"
     },
     "403": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4166,6 +4779,10 @@
         {
           "gw": 4,
           "dc": 6
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 6.499388004895961,
@@ -4195,7 +4812,7 @@
       "prevSeason": "2024/25"
     },
     "411": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4213,13 +4830,17 @@
         {
           "gw": 4,
           "dc": 3
+        },
+        {
+          "gw": 5,
+          "dc": 2
         }
       ],
       "dcPer90Prev": 3.1696579749407383,
       "prevSeason": "2025/26"
     },
     "412": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4236,6 +4857,10 @@
         },
         {
           "gw": 4,
+          "dc": 0
+        },
+        {
+          "gw": 5,
           "dc": 0
         }
       ],
@@ -4255,7 +4880,7 @@
       "prevSeason": "2025/26"
     },
     "417": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4269,13 +4894,17 @@
         {
           "gw": 4,
           "dc": 3
+        },
+        {
+          "gw": 5,
+          "dc": 2
         }
       ],
       "dcPer90Prev": 6.209275584515139,
       "prevSeason": "2025/26"
     },
     "418": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -4293,13 +4922,17 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 8.241358399029714,
       "prevSeason": "2025/26"
     },
     "419": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -4313,6 +4946,10 @@
         {
           "gw": 4,
           "dc": 6
+        },
+        {
+          "gw": 5,
+          "dc": 4
         }
       ],
       "dcPer90Prev": 7.689178193653377,
@@ -4350,7 +4987,7 @@
       "prevSeason": "2025/26"
     },
     "423": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4364,13 +5001,17 @@
         {
           "gw": 3,
           "dc": 8
+        },
+        {
+          "gw": 5,
+          "dc": 3
         }
       ],
       "dcPer90Prev": 6.260869565217392,
       "prevSeason": "2025/26"
     },
     "426": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4388,13 +5029,17 @@
         {
           "gw": 4,
           "dc": 7
+        },
+        {
+          "gw": 5,
+          "dc": 6
         }
       ],
       "dcPer90Prev": 8.427406199021208,
       "prevSeason": "2025/26"
     },
     "427": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4412,13 +5057,17 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 4
         }
       ],
       "dcPer90Prev": 4.791267713519724,
       "prevSeason": "2025/26"
     },
     "428": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4436,13 +5085,17 @@
         {
           "gw": 4,
           "dc": 2
+        },
+        {
+          "gw": 5,
+          "dc": 3
         }
       ],
       "dcPer90Prev": 7.617328519855596,
       "prevSeason": "2025/26"
     },
     "429": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4456,14 +5109,25 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 2
         }
       ],
       "dcPer90Prev": 4.391796322489392,
       "prevSeason": "2024/25"
     },
+    "430": {
+      "apps": 0,
+      "dcHits": 0,
+      "dcByGw": [],
+      "dcPer90Prev": 9.08910891089109,
+      "prevSeason": "2025/26"
+    },
     "432": {
-      "apps": 3,
-      "dcHits": 3,
+      "apps": 4,
+      "dcHits": 4,
       "dcByGw": [
         {
           "gw": 2,
@@ -4476,6 +5140,10 @@
         {
           "gw": 4,
           "dc": 13
+        },
+        {
+          "gw": 5,
+          "dc": 12
         }
       ],
       "dcPer90Prev": 10.181488203266788,
@@ -4503,8 +5171,8 @@
       "prevSeason": "2025/26"
     },
     "445": {
-      "apps": 4,
-      "dcHits": 2,
+      "apps": 5,
+      "dcHits": 3,
       "dcByGw": [
         {
           "gw": 1,
@@ -4521,6 +5189,10 @@
         {
           "gw": 4,
           "dc": 11
+        },
+        {
+          "gw": 5,
+          "dc": 13
         }
       ],
       "dcPer90Prev": 8.869389132635842,
@@ -4534,8 +5206,8 @@
       "prevSeason": "2025/26"
     },
     "447": {
-      "apps": 4,
-      "dcHits": 2,
+      "apps": 5,
+      "dcHits": 3,
       "dcByGw": [
         {
           "gw": 1,
@@ -4552,14 +5224,18 @@
         {
           "gw": 4,
           "dc": 17
+        },
+        {
+          "gw": 5,
+          "dc": 18
         }
       ],
       "dcPer90Prev": 10.599781897491821,
       "prevSeason": "2025/26"
     },
     "449": {
-      "apps": 4,
-      "dcHits": 2,
+      "apps": 5,
+      "dcHits": 3,
       "dcByGw": [
         {
           "gw": 1,
@@ -4576,6 +5252,10 @@
         {
           "gw": 4,
           "dc": 6
+        },
+        {
+          "gw": 5,
+          "dc": 10
         }
       ],
       "dcPer90Prev": 7.155330882352941,
@@ -4596,7 +5276,7 @@
       "prevSeason": "2025/26"
     },
     "453": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4614,6 +5294,10 @@
         {
           "gw": 4,
           "dc": 6
+        },
+        {
+          "gw": 5,
+          "dc": 9
         }
       ],
       "dcPer90Prev": 4.613018964633522,
@@ -4640,7 +5324,7 @@
       "prevSeason": "2025/26"
     },
     "455": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -4658,6 +5342,10 @@
         {
           "gw": 4,
           "dc": 11
+        },
+        {
+          "gw": 5,
+          "dc": 11
         }
       ],
       "dcPer90Prev": 9.127861089187055,
@@ -4671,15 +5359,20 @@
       "prevSeason": "2025/26"
     },
     "457": {
-      "apps": 0,
+      "apps": 1,
       "dcHits": 0,
-      "dcByGw": [],
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 8
+        }
+      ],
       "dcPer90Prev": 5.043586550435865,
       "prevSeason": "2025/26"
     },
     "459": {
-      "apps": 4,
-      "dcHits": 1,
+      "apps": 5,
+      "dcHits": 2,
       "dcByGw": [
         {
           "gw": 1,
@@ -4696,13 +5389,17 @@
         {
           "gw": 4,
           "dc": 10
+        },
+        {
+          "gw": 5,
+          "dc": 16
         }
       ],
       "dcPer90Prev": 9.343603482920294,
       "prevSeason": "2025/26"
     },
     "460": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4712,6 +5409,10 @@
         {
           "gw": 3,
           "dc": 3
+        },
+        {
+          "gw": 5,
+          "dc": 6
         }
       ],
       "dcPer90Prev": 8.24074074074074,
@@ -4725,11 +5426,15 @@
       "prevSeason": null
     },
     "462": {
-      "apps": 1,
+      "apps": 2,
       "dcHits": 0,
       "dcByGw": [
         {
           "gw": 4,
+          "dc": 7
+        },
+        {
+          "gw": 5,
           "dc": 7
         }
       ],
@@ -4744,7 +5449,7 @@
       "prevSeason": "2025/26"
     },
     "464": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4762,6 +5467,10 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 3.829787234042553,
@@ -4775,7 +5484,7 @@
       "prevSeason": "2025/26"
     },
     "467": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4793,13 +5502,17 @@
         {
           "gw": 4,
           "dc": 0
+        },
+        {
+          "gw": 5,
+          "dc": 0
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "469": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -4817,6 +5530,10 @@
         {
           "gw": 4,
           "dc": 3
+        },
+        {
+          "gw": 5,
+          "dc": 2
         }
       ],
       "dcPer90Prev": 6.940368404620668,
@@ -4843,8 +5560,8 @@
       "prevSeason": "2025/26"
     },
     "472": {
-      "apps": 4,
-      "dcHits": 3,
+      "apps": 5,
+      "dcHits": 4,
       "dcByGw": [
         {
           "gw": 1,
@@ -4861,6 +5578,10 @@
         {
           "gw": 4,
           "dc": 12
+        },
+        {
+          "gw": 5,
+          "dc": 11
         }
       ],
       "dcPer90Prev": 9.422535211267606,
@@ -4887,7 +5608,7 @@
       "prevSeason": "2025/26"
     },
     "474": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -4901,6 +5622,10 @@
         {
           "gw": 3,
           "dc": 12
+        },
+        {
+          "gw": 5,
+          "dc": 8
         }
       ],
       "dcPer90Prev": 8.229571984435797,
@@ -4914,7 +5639,7 @@
       "prevSeason": null
     },
     "480": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -4932,13 +5657,17 @@
         {
           "gw": 4,
           "dc": 4
+        },
+        {
+          "gw": 5,
+          "dc": 2
         }
       ],
       "dcPer90Prev": 5.166075459529184,
       "prevSeason": "2025/26"
     },
     "481": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 2,
       "dcByGw": [
         {
@@ -4956,6 +5685,10 @@
         {
           "gw": 4,
           "dc": 14
+        },
+        {
+          "gw": 5,
+          "dc": 9
         }
       ],
       "dcPer90Prev": 13.910564225690276,
@@ -4989,7 +5722,7 @@
       "prevSeason": "2025/26"
     },
     "486": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -5007,6 +5740,10 @@
         {
           "gw": 4,
           "dc": 12
+        },
+        {
+          "gw": 5,
+          "dc": 4
         }
       ],
       "dcPer90Prev": 0,
@@ -5078,7 +5815,7 @@
       "prevSeason": null
     },
     "496": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -5095,6 +5832,10 @@
         },
         {
           "gw": 4,
+          "dc": 0
+        },
+        {
+          "gw": 5,
           "dc": 0
         }
       ],
@@ -5130,7 +5871,7 @@
       "prevSeason": "2025/26"
     },
     "501": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -5140,13 +5881,17 @@
         {
           "gw": 4,
           "dc": 4
+        },
+        {
+          "gw": 5,
+          "dc": 8
         }
       ],
       "dcPer90Prev": 11.6051040967092,
       "prevSeason": "2025/26"
     },
     "502": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -5160,13 +5905,17 @@
         {
           "gw": 4,
           "dc": 2
+        },
+        {
+          "gw": 5,
+          "dc": 3
         }
       ],
       "dcPer90Prev": 4.24892703862661,
       "prevSeason": "2025/26"
     },
     "503": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -5180,14 +5929,18 @@
         {
           "gw": 4,
           "dc": 6
+        },
+        {
+          "gw": 5,
+          "dc": 6
         }
       ],
       "dcPer90Prev": 6.274251890825386,
       "prevSeason": "2025/26"
     },
     "504": {
-      "apps": 4,
-      "dcHits": 1,
+      "apps": 5,
+      "dcHits": 2,
       "dcByGw": [
         {
           "gw": 1,
@@ -5204,6 +5957,10 @@
         {
           "gw": 4,
           "dc": 9
+        },
+        {
+          "gw": 5,
+          "dc": 12
         }
       ],
       "dcPer90Prev": null,
@@ -5256,8 +6013,8 @@
       "prevSeason": "2024/25"
     },
     "516": {
-      "apps": 3,
-      "dcHits": 1,
+      "apps": 4,
+      "dcHits": 2,
       "dcByGw": [
         {
           "gw": 2,
@@ -5270,6 +6027,10 @@
         {
           "gw": 4,
           "dc": 10
+        },
+        {
+          "gw": 5,
+          "dc": 17
         }
       ],
       "dcPer90Prev": 13.308510638297872,
@@ -5295,7 +6056,7 @@
       "prevSeason": "2025/26"
     },
     "522": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -5309,6 +6070,10 @@
         {
           "gw": 4,
           "dc": 11
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 8.076138681169272,
@@ -5343,12 +6108,16 @@
       "prevSeason": "2025/26"
     },
     "526": {
-      "apps": 1,
+      "apps": 2,
       "dcHits": 0,
       "dcByGw": [
         {
           "gw": 4,
           "dc": 2
+        },
+        {
+          "gw": 5,
+          "dc": 6
         }
       ],
       "dcPer90Prev": 6.4092276830491475,
@@ -5367,7 +6136,7 @@
       "prevSeason": "2025/26"
     },
     "529": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -5385,14 +6154,18 @@
         {
           "gw": 4,
           "dc": 0
+        },
+        {
+          "gw": 5,
+          "dc": 0
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "532": {
-      "apps": 4,
-      "dcHits": 2,
+      "apps": 5,
+      "dcHits": 3,
       "dcByGw": [
         {
           "gw": 1,
@@ -5409,13 +6182,17 @@
         {
           "gw": 4,
           "dc": 6
+        },
+        {
+          "gw": 5,
+          "dc": 14
         }
       ],
       "dcPer90Prev": 11.082089552238806,
       "prevSeason": "2025/26"
     },
     "533": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 2,
       "dcByGw": [
         {
@@ -5429,6 +6206,10 @@
         {
           "gw": 4,
           "dc": 6
+        },
+        {
+          "gw": 5,
+          "dc": 9
         }
       ],
       "dcPer90Prev": 8.825431034482758,
@@ -5494,7 +6275,7 @@
       "prevSeason": "2025/26"
     },
     "541": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -5512,13 +6293,17 @@
         {
           "gw": 4,
           "dc": 2
+        },
+        {
+          "gw": 5,
+          "dc": 4
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "542": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -5536,6 +6321,10 @@
         {
           "gw": 4,
           "dc": 4
+        },
+        {
+          "gw": 5,
+          "dc": 3
         }
       ],
       "dcPer90Prev": 9.79863481228669,
@@ -5549,7 +6338,7 @@
       "prevSeason": "2025/26"
     },
     "544": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 2,
       "dcByGw": [
         {
@@ -5567,13 +6356,17 @@
         {
           "gw": 4,
           "dc": 11
+        },
+        {
+          "gw": 5,
+          "dc": 8
         }
       ],
       "dcPer90Prev": 11.230610134436402,
       "prevSeason": "2025/26"
     },
     "545": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -5591,6 +6384,10 @@
         {
           "gw": 4,
           "dc": 10
+        },
+        {
+          "gw": 5,
+          "dc": 3
         }
       ],
       "dcPer90Prev": 7.720511933586994,
@@ -5638,7 +6435,7 @@
       "prevSeason": null
     },
     "552": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -5656,6 +6453,10 @@
         {
           "gw": 4,
           "dc": 4
+        },
+        {
+          "gw": 5,
+          "dc": 0
         }
       ],
       "dcPer90Prev": 3.46875,
@@ -5676,7 +6477,7 @@
       "prevSeason": "2022/23"
     },
     "557": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -5690,13 +6491,17 @@
         {
           "gw": 4,
           "dc": 3
+        },
+        {
+          "gw": 5,
+          "dc": 3
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "558": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 2,
       "dcByGw": [
         {
@@ -5710,6 +6515,10 @@
         {
           "gw": 4,
           "dc": 16
+        },
+        {
+          "gw": 5,
+          "dc": 7
         }
       ],
       "dcPer90Prev": null,
@@ -5794,8 +6603,8 @@
       "prevSeason": null
     },
     "566": {
-      "apps": 4,
-      "dcHits": 3,
+      "apps": 5,
+      "dcHits": 4,
       "dcByGw": [
         {
           "gw": 1,
@@ -5812,13 +6621,17 @@
         {
           "gw": 4,
           "dc": 10
+        },
+        {
+          "gw": 5,
+          "dc": 15
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "567": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -5836,20 +6649,29 @@
         {
           "gw": 4,
           "dc": 0
+        },
+        {
+          "gw": 5,
+          "dc": 0
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "568": {
-      "apps": 0,
+      "apps": 1,
       "dcHits": 0,
-      "dcByGw": [],
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 9
+        }
+      ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "569": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -5867,6 +6689,10 @@
         {
           "gw": 4,
           "dc": 3
+        },
+        {
+          "gw": 5,
+          "dc": 2
         }
       ],
       "dcPer90Prev": null,
@@ -5900,7 +6726,7 @@
       "prevSeason": "2025/26"
     },
     "572": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -5918,6 +6744,10 @@
         {
           "gw": 4,
           "dc": 0
+        },
+        {
+          "gw": 5,
+          "dc": 0
         }
       ],
       "dcPer90Prev": null,
@@ -5931,7 +6761,7 @@
       "prevSeason": null
     },
     "575": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -5941,6 +6771,10 @@
         {
           "gw": 2,
           "dc": 7
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": null,
@@ -5982,7 +6816,7 @@
       "prevSeason": "2023/24"
     },
     "579": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -5992,14 +6826,18 @@
         {
           "gw": 4,
           "dc": 4
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "580": {
-      "apps": 2,
-      "dcHits": 1,
+      "apps": 3,
+      "dcHits": 2,
       "dcByGw": [
         {
           "gw": 3,
@@ -6008,27 +6846,40 @@
         {
           "gw": 4,
           "dc": 17
+        },
+        {
+          "gw": 5,
+          "dc": 13
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "581": {
-      "apps": 1,
+      "apps": 2,
       "dcHits": 1,
       "dcByGw": [
         {
           "gw": 4,
           "dc": 14
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "583": {
-      "apps": 0,
+      "apps": 1,
       "dcHits": 0,
-      "dcByGw": [],
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 9
+        }
+      ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
@@ -6040,9 +6891,14 @@
       "prevSeason": "2023/24"
     },
     "585": {
-      "apps": 0,
+      "apps": 1,
       "dcHits": 0,
-      "dcByGw": [],
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 8
+        }
+      ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
@@ -6063,7 +6919,7 @@
       "prevSeason": null
     },
     "588": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 2,
       "dcByGw": [
         {
@@ -6077,6 +6933,10 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 6
         }
       ],
       "dcPer90Prev": null,
@@ -6095,7 +6955,7 @@
       "prevSeason": null
     },
     "591": {
-      "apps": 4,
+      "apps": 5,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -6113,15 +6973,24 @@
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": 6.155844155844156,
       "prevSeason": "2024/25"
     },
     "592": {
-      "apps": 0,
+      "apps": 1,
       "dcHits": 0,
-      "dcByGw": [],
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 8
+        }
+      ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
@@ -6160,14 +7029,19 @@
       "prevSeason": null
     },
     "596": {
-      "apps": 0,
-      "dcHits": 0,
-      "dcByGw": [],
+      "apps": 1,
+      "dcHits": 1,
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 13
+        }
+      ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "597": {
-      "apps": 3,
+      "apps": 4,
       "dcHits": 0,
       "dcByGw": [
         {
@@ -6181,13 +7055,17 @@
         {
           "gw": 4,
           "dc": 0
+        },
+        {
+          "gw": 5,
+          "dc": 0
         }
       ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
     "598": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -6197,6 +7075,10 @@
         {
           "gw": 4,
           "dc": 9
+        },
+        {
+          "gw": 5,
+          "dc": 4
         }
       ],
       "dcPer90Prev": null,
@@ -6255,6 +7137,18 @@
       "dcPer90Prev": 7.528846153846153,
       "prevSeason": "2025/26"
     },
+    "612": {
+      "apps": 1,
+      "dcHits": 0,
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 3
+        }
+      ],
+      "dcPer90Prev": null,
+      "prevSeason": null
+    },
     "616": {
       "apps": 0,
       "dcHits": 0,
@@ -6270,7 +7164,7 @@
       "prevSeason": null
     },
     "619": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 2,
       "dcByGw": [
         {
@@ -6280,6 +7174,10 @@
         {
           "gw": 4,
           "dc": 13
+        },
+        {
+          "gw": 5,
+          "dc": 6
         }
       ],
       "dcPer90Prev": null,
@@ -6307,12 +7205,16 @@
       "prevSeason": null
     },
     "627": {
-      "apps": 1,
+      "apps": 2,
       "dcHits": 0,
       "dcByGw": [
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 3
         }
       ],
       "dcPer90Prev": null,
@@ -6338,9 +7240,14 @@
       "prevSeason": null
     },
     "634": {
-      "apps": 0,
+      "apps": 1,
       "dcHits": 0,
-      "dcByGw": [],
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 2
+        }
+      ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
@@ -6366,9 +7273,14 @@
       "prevSeason": null
     },
     "639": {
-      "apps": 0,
+      "apps": 1,
       "dcHits": 0,
-      "dcByGw": [],
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 9
+        }
+      ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
@@ -6387,9 +7299,14 @@
       "prevSeason": null
     },
     "642": {
-      "apps": 0,
+      "apps": 1,
       "dcHits": 0,
-      "dcByGw": [],
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 3
+        }
+      ],
       "dcPer90Prev": null,
       "prevSeason": null
     },
@@ -6401,7 +7318,7 @@
       "prevSeason": "2023/24"
     },
     "644": {
-      "apps": 2,
+      "apps": 3,
       "dcHits": 1,
       "dcByGw": [
         {
@@ -6411,6 +7328,10 @@
         {
           "gw": 4,
           "dc": 16
+        },
+        {
+          "gw": 5,
+          "dc": 5
         }
       ],
       "dcPer90Prev": null,
@@ -6430,25 +7351,52 @@
       "dcPer90Prev": null,
       "prevSeason": null
     },
+    "648": {
+      "apps": 0,
+      "dcHits": 0,
+      "dcByGw": [],
+      "dcPer90Prev": null,
+      "prevSeason": null
+    },
     "649": {
-      "apps": 1,
+      "apps": 2,
       "dcHits": 0,
       "dcByGw": [
         {
           "gw": 4,
           "dc": 5
+        },
+        {
+          "gw": 5,
+          "dc": 8
         }
       ],
       "dcPer90Prev": 0,
       "prevSeason": "2022/23"
     },
     "650": {
-      "apps": 1,
-      "dcHits": 1,
+      "apps": 2,
+      "dcHits": 2,
       "dcByGw": [
         {
           "gw": 4,
           "dc": 12
+        },
+        {
+          "gw": 5,
+          "dc": 11
+        }
+      ],
+      "dcPer90Prev": null,
+      "prevSeason": null
+    },
+    "656": {
+      "apps": 1,
+      "dcHits": 0,
+      "dcByGw": [
+        {
+          "gw": 5,
+          "dc": 8
         }
       ],
       "dcPer90Prev": null,

@@ -36,6 +36,31 @@ its own; "64th percentile among defenders" does.
   comparison that cannot separate them.
 - **Set-piece duty** — corners, free kicks and penalties, which is role value that repeats.
 
+### My squad
+
+A third tab loads your actual FPL squad by team ID and lets you lay out the XI you would play in
+each upcoming gameweek — so a week where three starters face red fixtures, or one blanks,
+shows up now rather than five deadlines from now.
+
+- **Load by team ID** — read from FPL's public picks for the latest deadline. Saved in your
+  browser, so it is there next visit.
+- **Transfers** — remove any player and bring in another in the same position. Use it for a
+  transfer you have already made (FPL's picks do not show it until the next deadline) or to try
+  one out. The new player takes the old one's place in every gameweek's XI.
+- **You pick the XI** — click a starter, then a bench player, to swap them. No auto-pick. An
+  optional captain per week.
+- **Weeks carry forward** — a gameweek you have not touched uses the XI from the week before,
+  just as FPL rolls your team over. Edit any week to break the chain from there on; undo it to
+  rejoin.
+- **Summary strip** — one cell per gameweek in the "weeks ahead" window: mean difficulty of your
+  starters' fixtures, formation, hard / blank / double counts, and a warning count.
+- **Warnings, not blocks** — illegal formations, starters without a fixture, injured starters
+  (next gameweek only), and more than three players from one club are flagged but never stop
+  you, so a half-finished transfer test does not get stuck on a rule.
+
+The bank shown after transfers is an estimate at current prices. FPL sells at a rate that depends
+on what you paid, which the public API does not expose.
+
 ## Running it
 
 ```bash
@@ -91,9 +116,14 @@ run looks like. Run it by hand from the Actions tab with **force** to repair a p
 | `lib/difficulty.ts` | FDR colour scale, gradient blending, crest URLs |
 | `lib/history.ts` | Crawls `/element-summary/` and derives the DC hit-rate |
 | `lib/compare.ts` | Comparison metrics and within-position percentile ranking |
+| `lib/squad.ts` | Squad slots, per-gameweek lineups, week summaries, browser persistence |
+| `lib/entry.ts` | Reads a manager's picks from `/entry/{id}/` (server only) |
+| `lib/format.ts` | Hydration-safe deadline formatting shared by the views |
 | `components/planner.tsx` | Ticker UI — controls, team picker, tab switcher |
 | `components/compare.tsx` | Compare UI — player search, percentile table, DC strip |
+| `components/squad.tsx` | Squad UI — team ID load, summary strip, pitch, transfer search |
 | `app/api/schedule/route.ts` | Uncached JSON endpoint for the Refresh button |
+| `app/api/squad/[id]/route.ts` | Proxies a manager's picks (the FPL API sends no CORS headers) |
 | `scripts/refresh-snapshot.ts` | Regenerates `data/snapshot.json` |
 | `scripts/refresh-history.ts` | Regenerates `data/history.json` (`npm run refresh:history`) |
 
